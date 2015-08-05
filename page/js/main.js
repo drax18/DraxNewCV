@@ -23,10 +23,12 @@ $(document).ready(function () {
             window.location.hash = target;
         });
     });
-    setInterval(function(){ 
+  /*  setInterval(function(){ 
         $(".sub-myname h1, .sub-myname span").animate({left:200, opacity:"show"}, 1500);
-    }, 500);
-
+    }, 500); */
+    
+    $('.myname .parallax-container .parallax').height(height);
+    
     
     
 
