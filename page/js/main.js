@@ -1,11 +1,17 @@
 $(document).ready(function () {
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-    var height = window.innerHeight;
-    $('.myname').height(height);
-    var margintop = (window.innerHeight - 400) / 2;
+    $(".sticky").sticky({topSpacing: 0}); // Sticky Menü
+    
+    $('.button-collapse').sideNav(); // Animált menü responsive
+    
+    $('.parallax').parallax(); // Parallax hátterek
+    
+    var height = window.innerHeight;    // Kezdőoldal magasság
+    $('.myname').height(height);    
+    
+    var margintop = (window.innerHeight - 400) / 2; // Kezdőoldal középső div margin
+    $('.sub-myname').css("margin-top", margintop);
 
-    $('a[href^="#"]').on('click', function (e) {
+    $('a[href^="#"]').on('click', function (e) { // Animált anchor
         e.preventDefault();
 
         var target = this.hash;
@@ -17,16 +23,14 @@ $(document).ready(function () {
             window.location.hash = target;
         });
     });
+    setInterval(function(){ 
+        $(".sub-myname h1, .sub-myname span").animate({left:200, opacity:"show"}, 1500);
+    }, 500);
 
-    $('.sub-myname').css("margin-top", margintop);
+    
+    
 
-    var options = [
-        {selector: '.draxi', offset: 0, callback: 'Materialize.fadeInImage(".draxi")'}
 
-    ];
-
-    Materialize.scrollFire(options);
-    $(".button-collapse").sideNav();
     /*
      
      $(".topnav li a").hover(function () {

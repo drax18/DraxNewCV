@@ -1,13 +1,12 @@
-<a id="anchor-home" href="#"></a>
-<header class="myname">     
+<header class="myname" id="anchor-home">     
     <div class="parallax-container">
         <div class="sub-myname red lighten-1">
-            <div class="container">
+            
                 <div class="row">
                     <div class="col-lg-12"><h1>Báder László</h1><span>Frontend fejlesztő</span></div>
 
                 </div>
-            </div>
+           
         </div>
         <div class="parallax"><img src="page/img/background1.png" /></div>
     </div>
@@ -22,9 +21,9 @@
                 <div class="pull-right">
                     <ul class="center-block hide-on-med-and-down">
                         <li><a href="#anchor-home">Kezdőlap</a></li>
-                        <li><a href="#!">Rólam</a></li>
-                        <li><a href="#">Munkáim</a></li>
-                        <li><a href="#!">Elérhetőségeim</a></li>
+                        <li><a href="#anchor-aboutme">Rólam</a></li>
+                        <li><a href="#anchor-myworks">Munkáim</a></li>
+                        <li><a href="#anchor-contactme">Elérhetőségeim</a></li>
                     </ul>
                     <ul id="slide-out" class="side-nav">
                         <li><a href="#Home">Kezdőlap</a></li>
@@ -38,8 +37,16 @@
     </div>
 </nav>
 <main>
-    <section class="aboutme" style="height: 1000px">
-        
+    <section class="aboutme" id="anchor-aboutme" style="height: 1000px">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada augue sit amet iaculis auctor. Aliquam viverra pretium faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam eget dui ipsum. Aliquam vulputate, lorem sed porttitor sollicitudin, odio quam lacinia felis, iaculis ultricies sapien nibh nec mi. Nunc volutpat massa interdum magna consequat efficitur. Curabitur lacinia ex velit, ullamcorper tincidunt urna eleifend sit amet. Proin in velit et sem vehicula pellentesque. Nunc at fringilla nunc. In vitae ipsum cursus, semper lectus vitae, vehicula diam.
+
+Morbi ornare placerat felis, ac tempor magna vestibulum a. Proin dignissim semper viverra. Praesent varius non risus vitae dapibus. Cras id lacus imperdiet, imperdiet leo sit amet, bibendum tellus. Proin fringilla elementum ex, sit amet congue augue ultricies eget. Mauris vitae eros ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque mi magna, dictum in condimentum sit amet, pharetra pretium augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur urna iaculis arcu elementum, a aliquet massa feugiat. Nulla pulvinar tellus turpis, et dignissim sem ultricies sed. Nam interdum, metus blandit lacinia maximus, ligula ligula porttitor augue, quis mollis urna lorem id risus. Maecenas pretium gravida efficitur. Vestibulum vel lacinia odio, non varius lorem. Donec accumsan consequat odio, eu semper elit. Mauris sed erat efficitur, accumsan sapien in, maximus dui.
+
+Sed at consequat diam. Phasellus cursus convallis libero, vel venenatis mauris sollicitudin vel. Cras ut nisl sem. Duis aliquam ultricies facilisis. Donec euismod accumsan vestibulum. Pellentesque id eros mauris. Nam a augue gravida, molestie urna sed, tincidunt justo. Sed vel diam quis diam lacinia lobortis. Vivamus vitae mauris vehicula, ornare urna quis, tincidunt lorem. Nulla facilisi. Donec suscipit pharetra condimentum. In faucibus malesuada risus, sit amet aliquam nibh venenatis feugiat. Nunc rhoncus tincidunt diam porttitor fringilla. Etiam sed dui ut dolor lobortis feugiat.
+
+Nam varius justo quis nunc auctor consectetur. Sed molestie fringilla ipsum non convallis. Aliquam vel orci mauris. Suspendisse purus lectus, semper ut pellentesque a, fermentum nec urna. Curabitur posuere lectus eros, vitae dictum ante sodales quis. In eget pharetra lectus. Praesent molestie augue eu odio faucibus, eu auctor mi fringilla. Suspendisse quis quam commodo, euismod dui ut, malesuada sapien. Donec nisi enim, gravida eget felis et, volutpat pulvinar orci. Suspendisse nec mauris semper, ornare odio at, porttitor nulla. Donec imperdiet lobortis convallis. Suspendisse consequat, diam at tempor vehicula, velit quam maximus sapien, sed feugiat nibh sapien eget eros. Proin felis urna, tristique viverra efficitur ac, gravida sed augue.
+
+Suspendisse bibendum risus dignissim, vestibulum velit eu, varius dolor. Nam pharetra eget orci a facilisis. Vestibulum metus sem, sollicitudin quis sem vitae, semper convallis sem. Nunc in neque libero. Proin semper nisl ipsum, eget posuere ante convallis nec. Maecenas imperdiet maximus nisi elementum suscipit. Aliquam blandit ultrices tortor non faucibus. Duis egestas dolor non consequat blandit. In vel venenatis massa. Nulla ultricies est sed sem consectetur ultrices. Etiam nunc risus, facilisis in augue nec, imperdiet porttitor urna. Morbi lacinia iaculis diam in consequat. Mauris lobortis enim vitae felis sollicitudin tempor. Aenean eu ex sit amet ligula tempor mollis. Morbi vitae rutrum est, vel tempus lacus.
     </section>
 </main>
 
