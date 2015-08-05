@@ -27,7 +27,8 @@
         <link href="page/css/index.css" rel="stylesheet">
 
         <!-- Custom CSS -->        
-        
+        <link href="page/css/animate.min.css" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
         <!-- Media CSS -->
         <link href="page/css/media.css" rel="stylesheet">

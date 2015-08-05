@@ -9,6 +9,7 @@
 <script type="text/javascript" src="page/js/materialize.js"></script>
 <script type="text/javascript" src="page/js/jquery.sticky.js"></script>
 <script type="text/javascript" src="page/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="page/js/jquery.appear.js"></script>
 
 
 </body>

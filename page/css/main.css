@@ -6,7 +6,7 @@ root{
     margin: 0;
 }
 body{
-
+    font-family: "Roboto";
 }
 a{
     text-decoration: none;
@@ -15,16 +15,18 @@ a:hover, a:focus{
     text-decoration: none;
     color:white;
 }
-.sub-myname h1, .sub-myname span{
-    
-}
+
 .myname .parallax-container{
-    min-height: 955px;
+
+}
+.myname{
+    z-index: 1000;
 }
 .sticky{
     z-index: 5000;
 }
 .sub-myname{
+
     height: 400px;
     width: 400px;
     margin: 0px auto;
@@ -32,17 +34,26 @@ a:hover, a:focus{
     border:10px solid white;
     background-color: rgba(38,166,154,0.7);
 }
-.sub-myname h1.animate{
-    
-    
-     transform: translate(5em,0);
-    -webkit-transform: translate(5em,0);
-     -moz-transform: translate(5em,0);
+.myname .parallax-container img{
+    z-index: -1;
 }
+.sub-myname h1{
 
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+}
+.sub-myname span{
+    color: white;
+    text-align: right;
+    display: block;
+    padding-right: 50px;
+    font-size: 24px;
+}
 .aboutme{
     z-index: 5000;
-  
+
 }
 main{
     padding-top: 64px;
