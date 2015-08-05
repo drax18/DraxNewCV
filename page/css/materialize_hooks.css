@@ -1,0 +1,7 @@
+nav ul a {
+    font-size: 14px;
+}
+.nav ul a:hover, .nav ul a:focus{
+    text-decoration: none;
+    color:white;
+}

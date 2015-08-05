@@ -11,12 +11,19 @@ body{
 a{
     text-decoration: none;
 }
+a:hover, a:focus{
+    text-decoration: none;
+    color:white;
+}
 .myname .parallax-container{
-    min-height: 900px;
+    min-height: 955px;
 }
 .sticky{
     z-index: 5000;
 }
 .sub-myname{
     height: 400px;
+    width: 400px;
+    margin: 0px auto;
+    border-radius: 50%;
 }

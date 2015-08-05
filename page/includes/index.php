@@ -1,25 +1,49 @@
+<a id="anchor-home" href="#"></a>
 <header class="myname">     
     <div class="parallax-container">
-        <div class="sub-myname teal lighten-2">
-            
+        <div class="sub-myname red lighten-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12"><h1>Báder László</h1><span>Frontend fejlesztő</span></div>
+
+                </div>
+            </div>
         </div>
-        <div class="parallax"><img  src="page/img/background1.jpg" /></div>
+        <div class="parallax"><img src="page/img/background1.png" /></div>
     </div>
 </header>
-<nav class="sticky">
-    <ul class="center-block hide-on-med-and-down">
-        <li><a href="#!">First Sidebar Link</a></li>
-        <li><a href="#!">Second Sidebar Link</a></li>
-    </ul>
-    <ul id="slide-out" class="side-nav">
-        <li><a href="#!">First Sidebar Link</a></li>
-        <li><a href="#!">Second Sidebar Link</a></li>
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-</nav>
-<div style="height: 1000px">    drax<br />
-    drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />drax<br />
+<nav class="sticky teal lighten-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
 
+            </div>
+            <div class="col-lg-8">
+                <div class="pull-right">
+                    <ul class="center-block hide-on-med-and-down">
+                        <li><a href="#anchor-home">Kezdőlap</a></li>
+                        <li><a href="#!">Rólam</a></li>
+                        <li><a href="#">Munkáim</a></li>
+                        <li><a href="#!">Elérhetőségeim</a></li>
+                    </ul>
+                    <ul id="slide-out" class="side-nav">
+                        <li><a href="#Home">Kezdőlap</a></li>
+                        <li><a href="#!">Second Sidebar Link</a></li>
+                    </ul>
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+<main>
+    <section class="aboutme" style="height: 1000px">
+        
+    </section>
+</main>
+
+    
 
 </div>
 <div class="container">
@@ -47,22 +71,22 @@
     </div>
 </div>
 
-  <div id="index-banner" class="parallax-container">
+<div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <div class="container">
+            <br><br>
+            <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+            </div>
+            <div class="row center">
+                <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+            </div>
+            <br><br>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-      </div>
     </div>
     <div class="parallax"><img src="page/img/background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
+</div>
 <!--
   <div class="container">
     <div class="section">
@@ -164,3 +188,4 @@ Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Ma
 </div>
 </footer>
 -->
+<a name="Home"></a>
