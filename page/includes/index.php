@@ -1,16 +1,4 @@
-<!--<nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav> -->
 <div class="pacal teal lighten-2">
     <div class="preloader-wrapper small active">
         <div class="spinner-layer spinner-blue-only">
@@ -40,9 +28,9 @@
 
 
 </div>
-
+<div class="container">
   <div class="row">
-    <div class="col s12 m9 l10">
+    <div class="col-lg-4">
       <div id="introduction" class="section scrollspy">
         <p>Content </p>
       </div>
@@ -55,7 +43,7 @@
         <p>Content </p>
       </div>
     </div>
-    <div class="col hide-on-small-only m3 l2">
+    <div class="col-lg-8">
       <ul class="section table-of-contents">
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#structure">Structure</a></li>
@@ -63,7 +51,7 @@
       </ul>
     </div>
   </div>
-
+</div>
 <!--
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">

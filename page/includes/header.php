@@ -20,7 +20,7 @@
         <link href="page/css/materialize_hooks.css" rel="stylesheet" media="screen">
         
         <!-- Bootstrap Hooks -->
-        <link href="page/css/materialize_hooks.css" rel="stylesheet" media="screen">
+        <link href="page/css/bootstrap_hooks.css" rel="stylesheet" media="screen">
 
         <!-- Pages CSS -->
         <link href="page/css/main.css" rel="stylesheet">
