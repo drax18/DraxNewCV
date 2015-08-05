@@ -8,6 +8,7 @@
 <script type="text/javascript" src="page/js/main.js"></script>
 <script type="text/javascript" src="page/js/materialize.js"></script>
 <script type="text/javascript" src="page/js/jquery.sticky.js"></script>
+<script type="text/javascript" src="page/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function () {
         $(".sticky").sticky({topSpacing: 0});

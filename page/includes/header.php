@@ -12,7 +12,13 @@
 
         <!-- Materialize -->              
         <link href="page/css/materialize.css" rel="stylesheet">
+        
+        <!-- Bootstrap -->              
+        <link href="page/css/bootstrap.css" rel="stylesheet">
 
+        <!-- Materialize Hooks -->
+        <link href="page/css/materialize_hooks.css" rel="stylesheet" media="screen">
+        
         <!-- Bootstrap Hooks -->
         <link href="page/css/materialize_hooks.css" rel="stylesheet" media="screen">
 
