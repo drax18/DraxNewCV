@@ -2,7 +2,10 @@ $(document).ready(function () {
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
     var height = window.innerHeight - 64;
-    $('.pacal').height(height);
+    $('.myname').height(height);
+    var margintop = (window.innerHeight - 464) / 2;
+    
+    $('.sub-myname').css("margin-top",margintop);
    
     var options = [
         

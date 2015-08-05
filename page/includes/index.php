@@ -1,19 +1,13 @@
-
-<div class="pacal teal lighten-2">
-    <div class="preloader-wrapper small active">
-        <div class="spinner-layer spinner-blue-only">
-            <div class="circle-clipper left">
-                <div class="circle"></div>
-            </div><div class="gap-patch">
-                <div class="circle"></div>
-            </div><div class="circle-clipper right">
-                <div class="circle"></div>
-            </div>
+<header class="myname">     
+    <div class="parallax-container">
+        <div class="sub-myname teal lighten-2">
+            
         </div>
+        <div class="parallax"><img  src="page/img/background1.jpg" /></div>
     </div>
-</div>
+</header>
 <nav class="sticky">
-    <ul class="right hide-on-med-and-down">
+    <ul class="center-block hide-on-med-and-down">
         <li><a href="#!">First Sidebar Link</a></li>
         <li><a href="#!">Second Sidebar Link</a></li>
     </ul>
@@ -29,30 +23,30 @@
 
 </div>
 <div class="container">
-  <div class="row">
-    <div class="col-lg-4">
-      <div id="introduction" class="section scrollspy">
-        <p>Content </p>
-      </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <div id="introduction" class="section scrollspy">
+                <p>Content </p>
+            </div>
 
-      <div id="structure" class="section scrollspy">
-        <p>Content </p>
-      </div>
+            <div id="structure" class="section scrollspy">
+                <p>Content </p>
+            </div>
 
-      <div id="initialization" class="section scrollspy">
-        <p>Content </p>
-      </div>
+            <div id="initialization" class="section scrollspy">
+                <p>Content </p>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <ul class="section table-of-contents">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#structure">Structure</a></li>
+                <li><a href="#initialization">Intialization</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="col-lg-8">
-      <ul class="section table-of-contents">
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#structure">Structure</a></li>
-        <li><a href="#initialization">Intialization</a></li>
-      </ul>
-    </div>
-  </div>
 </div>
-<!--
+
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -69,6 +63,7 @@
     </div>
     <div class="parallax"><img src="page/img/background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
+<!--
   <div class="container">
     <div class="section">
 <!--   Icon Section  

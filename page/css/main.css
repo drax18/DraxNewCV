@@ -11,125 +11,12 @@ body{
 a{
     text-decoration: none;
 }
-nav ul a,
-nav .brand-logo {
-  color: #444;
+.myname .parallax-container{
+    min-height: 900px;
 }
 .sticky{
     z-index: 5000;
 }
-p {
-  line-height: 2rem;
+.sub-myname{
+    height: 400px;
 }
-.section{
-    padding: 0;
-}
-.button-collapse {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-/*
-
-ul.topnav li.selected a{
-    color:#2c8897;
-}
-ul.topnav{
-    clear: both;
-    overflow: hidden;
-    padding: 0px;
-    margin: 0px;
-}
-ul.topnav li {
-    display: block;
-    float: left;  
-}
-.navbar-nav > li + li {
-    margin-left: 15px;
-}
-ul.topnav li:first-child a{
-    margin-left: 0;
-}
-ul.topnav > li> a{
-    font-family: 'Candara';
-    text-decoration: none;
-    display: block;
-    font-size: 18px;
-    color:white;
-    letter-spacing: 0.6px;
-}
-ul.topnav > li> a:hover{
-    color:#2c8897;
-    background: transparent;
-
-}
-ul.topnav li .subnav{
-    width: 1170px;
-    background: #ffffff;
-    border: 1px solid #d0cfcf;
-    position: absolute;
-    left: -350px;
-    z-index: 999;
-    top: 50px;
-    padding: 30px;
-    display: none;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;}
-
-ul.topnav li .subnav li{
-    float: none;
-    border: 0;
-    padding-top: 0;
-    padding-bottom: 5px;
-}
-ul.topnav .subnav h4 a:hover, ul.topnav .subnav h4 a:focus{
-
-}
-.subnav ul{
-
-}
-.subnav ul li {
-
-}
-.subnav ul li a{
-
-}
-.subnav ul li a:hover, .subnav ul li a:focus{
-
-}
-*/
