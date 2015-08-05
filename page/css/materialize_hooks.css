@@ -1,0 +1,22 @@
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-nav > li > a {
+    padding-top: 0px; 
+    padding-bottom: 0px;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
+
+}
+.nav > li > a {
+    padding: 0;
+}
+.navbar-collapse{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-default{
+    background-color: transparent;
+    border:0;
+}
