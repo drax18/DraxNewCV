@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    $(window).scroll(function (){
+        $('.parallax-container .parallax img').removeClass('bugfixer');
+    });
     $(".sticky").sticky({topSpacing: 0}); // Sticky Menü
     
     $('.button-collapse').sideNav(); // Animált menü responsive
@@ -7,9 +10,7 @@ $(document).ready(function () {
     
     var height = window.innerHeight - 64;    // Kezdőoldal magasság
     $('.myname').height(height);    
-    
-    var margintop = (window.innerHeight - 464) / 2; // Kezdőoldal középső div margin
-    $('.sub-myname').css("margin-top", margintop);
+
 
     $('a[href^="#"]').on('click', function (e) { // Animált anchor
         e.preventDefault();
@@ -23,11 +24,11 @@ $(document).ready(function () {
             window.location.hash = target;
         });
     });
-    
-    
+
+ 
     
     $('.aboutme').on('appear', function(event, $all_appeared_elements) {
-      alert("asd");
+     
     });
     
     

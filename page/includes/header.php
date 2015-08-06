@@ -12,13 +12,13 @@
 
         <!-- Materialize -->              
         <link href="page/css/materialize.css" rel="stylesheet">
-        
+
         <!-- Bootstrap -->              
         <link href="page/css/bootstrap.css" rel="stylesheet">
 
         <!-- Materialize Hooks -->
         <link href="page/css/materialize_hooks.css" rel="stylesheet" media="screen">
-        
+
         <!-- Bootstrap Hooks -->
         <link href="page/css/bootstrap_hooks.css" rel="stylesheet" media="screen">
 
@@ -28,8 +28,8 @@
 
         <!-- Custom CSS -->        
         <link href="page/css/animate.min.css" rel="stylesheet">
-         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <!-- Media CSS -->
         <link href="page/css/media.css" rel="stylesheet">
 
@@ -38,3 +38,8 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+<script type="text/javascript">
+   
+   
+   
+</script>

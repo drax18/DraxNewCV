@@ -15,18 +15,24 @@ a:hover, a:focus{
     text-decoration: none;
     color:white;
 }
-
 .myname .parallax-container{
-
+    position: relative;
+    overflow: hidden;
+    max-height: 1000px;
+    display: table-cell;
+    vertical-align: middle;
 }
 .myname{
     z-index: 1000;
+    display: table;
+    width: 100%;
+    
 }
+
 .sticky{
     z-index: 5000;
 }
 .sub-myname{
-
     height: 400px;
     width: 400px;
     margin: 0px auto;
@@ -53,7 +59,6 @@ a:hover, a:focus{
 }
 .aboutme{
     z-index: 5000;
-
 }
 main{
     padding-top: 64px;

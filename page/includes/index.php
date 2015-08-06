@@ -1,21 +1,16 @@
 <header class="myname" id="anchor-home">     
-    <div class="parallax-container">
+    <div class="parallax-container">       
         <div class="sub-myname">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="animated fadeInLeft">Báder László</h1><span class="animated fadeInRight">Frontend fejlesztő</span>                    
-                </div>
-            </div>           
-        </div>
+            <h1 class="animated fadeInLeft">Báder László</h1><span class="animated fadeInRight">Frontend fejlesztő</span>     
+        </div>   
         <div class="parallax"><img src="page/img/background1.png" /></div>
     </div>
-    
 </header>
 <nav class="sticky teal lighten-2">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <a href="index.php" class="brand-logo">Báder László <> Frontend fejlesztő</a>
+                
             </div>
             <div class="col-lg-8">
                 <div class="pull-right">
@@ -25,15 +20,14 @@
                         <li><a href="#anchor-myworks">Munkáim</a></li>
                         <li><a href="#anchor-contactme">Elérhetőségeim</a></li>
                     </ul>
-                    <ul id="slide-out" class="side-nav">
+                 <!--   <ul id="slide-out" class="side-nav">
                         <li><a href="#Home">Kezdőlap</a></li>
                         <li><a href="#!">Second Sidebar Link</a></li>
-                    </ul>
+                    </ul> -->
                     <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                 </div>
             </div>
         </div>
-
     </div>
 </nav>
 <main>
