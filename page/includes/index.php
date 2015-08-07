@@ -1,12 +1,11 @@
-<header class="myname" id="anchor-home">     
-    <div class="parallax-container">       
+<header class="myname" id="anchor-home">
+    <div>
         <div class="sub-myname">
             <div>
                 <h1 class="animated fadeInLeft">Báder László</h1>
                 <span class="animated fadeInRight">Frontend fejlesztő</span>     
             </div>
         </div>   
-        <div class="parallax"><img alt="Background1" src="page/img/background1.png" /></div>
     </div>
 </header>
 <nav class="sticky teal lighten-2">
@@ -36,7 +35,7 @@
     </div>
 </nav>
 <main>
-    <section class="aboutme" id="anchor-aboutme" style="height: 1000px;">
+    <section class="aboutme" id="anchor-aboutme" style="height: 600px;">
         <div class="container">
             <h1 class="text-center opacity">Heading </h1>
             <p class="opacity"> Sed at consequat diam. Phasellus cursus convallis libero, vel venenatis mauris sollicitudin vel. Cras ut nisl sem. Duis aliquam ultricies facilisis. Donec euismod accumsan vestibulum. Pellentesque id eros mauris. Nam a augue gravida, molestie urna sed, tincidunt justo. Sed vel diam quis diam lacinia lobortis. Vivamus vitae mauris vehicula, ornare urna quis, tincidunt lorem. Nulla facilisi. Donec suscipit pharetra condimentum. In faucibus malesuada risus, sit amet aliquam nibh venenatis feugiat. Nunc rhoncus tincidunt diam porttitor fringilla. Etiam sed dui ut dolor lobortis feugiat.
@@ -47,7 +46,7 @@
 
         </div>
     </section>
-    <section class="myworks" id="anchor-myworks" style="height: 1000px;">
+    <section class="myworks" id="anchor-myworks" style="height: 600px;">
         <div class="container">
             <h1 class="text-center opacity">Heading </h1>
             <p class="opacity"> Sed at consequat diam. Phasellus cursus convallis libero, vel venenatis mauris sollicitudin vel. Cras ut nisl sem. Duis aliquam ultricies facilisis. Donec euismod accumsan vestibulum. Pellentesque id eros mauris. Nam a augue gravida, molestie urna sed, tincidunt justo. Sed vel diam quis diam lacinia lobortis. Vivamus vitae mauris vehicula, ornare urna quis, tincidunt lorem. Nulla facilisi. Donec suscipit pharetra condimentum. In faucibus malesuada risus, sit amet aliquam nibh venenatis feugiat. Nunc rhoncus tincidunt diam porttitor fringilla. Etiam sed dui ut dolor lobortis feugiat.
@@ -60,8 +59,9 @@
     </section>
 </main>
 <footer>
-    <section class="contactme" id="anchor-contactme" style="height: 1000px;">
-        <div class="container">            
+    <section class="contactme opacity" id="anchor-contactme" style="height: 600px;">
+        <div class="container">   
+            <h1 class="text-center">Heading </h1>
             <form class="">                
                 <div class="input-field">
                     <i class="material-icons prefix">account_circle</i>

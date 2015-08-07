@@ -15,11 +15,7 @@ $(document).ready(function () {
 
     $('.parallax').parallax(); // Parallax hátterek
     
-    $('.myname').height($(window).height());
     
-    $(window).on('resize', function () {
-        $('.myname').height($(window).height());
-    });
     
     $('a[href^="#"]').on('click', function (e) { // Animált anchor
         e.preventDefault();
@@ -33,6 +29,7 @@ $(document).ready(function () {
     });
     var $aboutme = $('.aboutme');
     var $myworks = $('.myworks');
+    var $contactme = $('.contactme');
 
     $aboutme.waypoint(function () {
         $('.aboutme h1').addClass('animated fadeInDown');
@@ -42,6 +39,11 @@ $(document).ready(function () {
      $myworks.waypoint(function () {
         $('.myworks h1').addClass('animated fadeInDown');
         $('.myworks p').addClass('animated fadeInDown');
+
+    }, {offset: '90%'});
+     $contactme.waypoint(function () {
+        $('.contactme').addClass('animated fadeInDown');
+        
 
     }, {offset: '90%'});
 
