@@ -1,16 +1,18 @@
 <header class="myname" id="anchor-home">     
     <div class="parallax-container">       
         <div class="sub-myname">
-            <h1 class="animated fadeInLeft">Báder László</h1><span class="animated fadeInRight">Frontend fejlesztő</span>     
+            <div>
+                <h1 class="animated fadeInLeft">Báder László</h1><span class="animated fadeInRight">Frontend fejlesztő</span>     
+            </div>
         </div>   
-        <div class="parallax"><img src="page/img/background1.png" /></div>
+        <div class="parallax"><img class="" src="page/img/background1.png" /></div>
     </div>
 </header>
 <nav class="sticky teal lighten-2">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                
+                <a href="index.php" class="brand-name">Báder László</a>
             </div>
             <div class="col-lg-8">
                 <div class="pull-right">
@@ -20,10 +22,12 @@
                         <li><a href="#anchor-myworks">Munkáim</a></li>
                         <li><a href="#anchor-contactme">Elérhetőségeim</a></li>
                     </ul>
-                 <!--   <ul id="slide-out" class="side-nav">
-                        <li><a href="#Home">Kezdőlap</a></li>
-                        <li><a href="#!">Second Sidebar Link</a></li>
-                    </ul> -->
+                    <ul id="slide-out" class="side-nav">
+                        <li><a href="#anchor-home">Kezdőlap</a></li>
+                        <li><a href="#anchor-aboutme">Rólam</a></li>
+                        <li><a href="#anchor-myworks">Munkáim</a></li>
+                        <li><a href="#anchor-contactme">Elérhetőségeim</a></li>
+                    </ul> 
                     <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                 </div>
             </div>
@@ -33,7 +37,7 @@
 <main>
     <section class="aboutme" id="anchor-aboutme" style="height: 1000px;padding-top: 64px;">
         <div class="container">
-            <h4 class="">Heading </h4>
+            <h4>Heading </h4>
             <p> Sed at consequat diam. Phasellus cursus convallis libero, vel venenatis mauris sollicitudin vel. Cras ut nisl sem. Duis aliquam ultricies facilisis. Donec euismod accumsan vestibulum. Pellentesque id eros mauris. Nam a augue gravida, molestie urna sed, tincidunt justo. Sed vel diam quis diam lacinia lobortis. Vivamus vitae mauris vehicula, ornare urna quis, tincidunt lorem. Nulla facilisi. Donec suscipit pharetra condimentum. In faucibus malesuada risus, sit amet aliquam nibh venenatis feugiat. Nunc rhoncus tincidunt diam porttitor fringilla. Etiam sed dui ut dolor lobortis feugiat.
 
                 Nam varius justo quis nunc auctor consectetur. Sed molestie fringilla ipsum non convallis. Aliquam vel orci mauris. Suspendisse purus lectus, semper ut pellentesque a, fermentum nec urna. Curabitur posuere lectus eros, vitae dictum ante sodales quis. In eget pharetra lectus. Praesent molestie augue eu odio faucibus, eu auctor mi fringilla. Suspendisse quis quam commodo, euismod dui ut, malesuada sapien. Donec nisi enim, gravida eget felis et, volutpat pulvinar orci. Suspendisse nec mauris semper, ornare odio at, porttitor nulla. Donec imperdiet lobortis convallis. Suspendisse consequat, diam at tempor vehicula, velit quam maximus sapien, sed feugiat nibh sapien eget eros. Proin felis urna, tristique viverra efficitur ac, gravida sed augue.
@@ -42,6 +46,23 @@
 
         </div>
     </section>
+
 </main>
-
-
+<footer>
+    <section class="contactme" id="anchor-contactme">
+        <div class="container">            
+            <form class="">                
+                <div class="input-field">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Név</label>
+                </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Telefonszám</label>
+                </div>               
+            </form>
+        </div>
+    </section>
+</footer>
