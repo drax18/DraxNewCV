@@ -21,9 +21,12 @@ a:hover, a:focus{
     color:white;
 }
 /* */
-/* Parallax bugfixer 1920*1080 */
+/* Bugfixer */
 .bugfixer{
     transform: translate3d(-50%, 91px, 0px) !important;
+}
+.opacity{
+    opacity: 0;
 }
 /* Header css */
 .myname .parallax-container{
@@ -79,10 +82,27 @@ a:hover, a:focus{
     animation-delay: 0.5s;
     -webkit-animation-delay: 0.5s;
     -moz-animation-delay: 0.5s;
+    
 }
 /* */
 /* Menü */
 .sticky{
     z-index: 5000;
+}
+.brand-name{
+    display: table;
+}
+.brand-name div{
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 3px;
+}
+.brand-name i{
+    line-height: inherit;
+    font-size: 14px;
+}
+.brand-name h4{
+    padding: 0;
+    margin: 0;
 }
 /* */
