@@ -1,14 +1,6 @@
 $(document).ready(function () {
-    var screenheight = screen.height;
-    var screenwidth = screen.width;
-    
-    if ((screenheight == 1080) && (screenwidth == 1920)) {
-        $('.myname .parallax-container .parallax img').addClass('bugfixer');
-    }
-    $(window).scroll(function () {
-        $('.myname .parallax-container .parallax img').removeClass('bugfixer');
-    });
-    
+      
+       
     $(".sticky").sticky({topSpacing: 0}); // Sticky Menü
 
     $('.button-collapse').sideNav(); // Animált menü responsive
@@ -22,7 +14,7 @@ $(document).ready(function () {
         var target = this.hash;
         var $target = $(target);
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top - 64
+            'scrollTop': $target.offset().top
         }, 900, 'swing', function () {
             window.location.hash = target;
         });
@@ -30,21 +22,21 @@ $(document).ready(function () {
     var $aboutme = $('.aboutme');
     var $myworks = $('.myworks');
     var $contactme = $('.contactme');
-
+// animate start
     $aboutme.waypoint(function () {
-        $('.aboutme h1').addClass('animated fadeInDown');
-        $('.aboutme p').addClass('animated fadeInDown');
+        $('.aboutme h1').addClass('animated slideInUp');
+        $('.aboutme p').addClass('animated slideInUp');
 
     }, {offset: '90%'});
      $myworks.waypoint(function () {
-        $('.myworks h1').addClass('animated fadeInDown');
-        $('.myworks p').addClass('animated fadeInDown');
+        $('.myworks h1').addClass('animated slideInUp');
+        $('.myworks p').addClass('animated slideInUp');
 
     }, {offset: '90%'});
      $contactme.waypoint(function () {
-        $('.contactme').addClass('animated fadeInDown');
+        $('.contactme').addClass('animated slideInUp');
         
 
     }, {offset: '90%'});
-
+// animate end
 });

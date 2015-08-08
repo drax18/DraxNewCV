@@ -27,8 +27,9 @@
         <link href="page/css/index.css" rel="stylesheet">
 
         <!-- Custom CSS -->        
-        <link href="page/css/animate.min.css" rel="stylesheet">
+        <link href="page/css/animate.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
         <!-- Media CSS -->
         <link href="page/css/media.css" rel="stylesheet">
