@@ -36,7 +36,7 @@ a:hover, a:focus{
     background-attachment: fixed;
     background-image: url(../img/background1.png);
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -64,8 +64,8 @@ a:hover, a:focus{
     bottom: 5px;
     border: 5px solid white;
     border-radius: 50%;
-    
-    
+
+
 }
 .sub-myname div{
     position: relative;
@@ -78,20 +78,17 @@ a:hover, a:focus{
     border:10px solid white;
     background-color: rgba(38,166,154,0.7);
     transition: border-color 1s;
-    
+
 }
 .sub-myname div:hover{
     border-color: rgba(38,166,154,0.1);
 }
 
-.myname .parallax-container img{
-    z-index: -1;
-}
+
 .sub-myname h1{
     margin: 0;
     padding: 0;
     color: white;
-
     text-align: center;
 
 }
@@ -108,8 +105,8 @@ a:hover, a:focus{
 .icons{
     display: block;
     text-align: center;
-    position: absolute;    
-    height: 20px;
+    position: absolute;   
+
     width: 100%;
     font-size: 30px;
 
@@ -149,10 +146,181 @@ a:hover, a:focus{
     color:rgb(38,166,154);  
 }
 /* */
+/* about me */
 .aboutme{
-    z-index: 5000;
+    margin-bottom: 50px;
+}
+.aboutme h1{
+    font-weight: bold;
+    
+
+}
+.aboutme-left{
+
+
+
+}
+.aboutme-right{    
+
+
 }
 
+.contactme{
+    margin-bottom: 100px;
+}
+
+.contactme textarea{
+    resize: none;    
+    height: 118px !important;
+    max-height: 118px;
+}
+.contactme h1{
+    font-weight: bold;
+   
+}
+/* */
+
+
+
+
+/* */
+.infosaboutme{
+    min-height: 270px;
+    background: url('../img/hline.png') repeat-x center;
+}
+.myface img{
+    border: 10px solid #26a69a;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.bars{
+    width: 80%;
+    margin: 0 auto;
+}
+.bars li{
+    position: relative;
+    margin-bottom: 50px;
+    background: #bdc3c7;
+    height: 30px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.bars .css{
+    background-color: #3498db;
+    width: 80%;    
+}
+.bars .js{
+    width: 50%;
+    background-color: #66BB6A;
+}
+.bars .html5{
+    width: 85%;
+    background-color: #5e35b1;
+}
+.bar-expand {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding-right: 24px;
+    background-color: #34495e;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
+}
+.bars li em {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: bold;    
+    position: relative;
+    display: block;
+    padding-top: 6px;
+}
+/* */
+
+.fake-parallax{
+    background-attachment: fixed;
+    background-image: url(../img/background2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+    border-top: 5px solid #4db6ac;
+    border-bottom: 5px solid #4db6ac;
+}
+
+.fake-parallaxTwo{
+    background-attachment: fixed;
+    background-image: url(../img/background3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+    border-top: 5px solid #4db6ac;
+    border-bottom: 5px solid #4db6ac;
+    display: table;
+    width: 100%;
+}
+.fake-parallax h1{
+    color:white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+}
+.contact-info label{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    padding-right: 5px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: #4db6ac;
+}
+.contact-info ul li{
+    padding-bottom: 10px;
+}
+.social-icons{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.social-icons a i{
+    font-size: 50px;
+}
+.social-icons a{
+    text-decoration: none;
+    color:white;
+    transition: all 0.3s ease;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #4db6ac;
+    width: 80px;
+    height: 80px;    
+    border-radius: 50%;
+}
+.social-icons ul li + li{
+    margin-left: 30px;
+}
+.social-icons a:hover{
+    color: #4db6ac;
+    background-color: white;
+}
+.greenline{
+    height: 10px;
+    background-color: #4db6ac;
+    margin-bottom: 50px;
+}
 /* */
 /* Menü */
 .sticky{

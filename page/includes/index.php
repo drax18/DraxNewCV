@@ -1,8 +1,8 @@
 <div class="icons">
     <div><a href="#"><i class="fa fa-facebook"></i></a></div>
     <div><a href="#"><i class="fa fa-twitter"></i></a></div>
-    <div><a href="#"><i class="fa fa-youtube"></i></a></div>
     <div><a href="#"><i class="fa fa-skype"></i></a></div>   
+    <div><a href="#"><i class="fa fa-envelope"></i></a></div>    
     <div><a href="#"><i class="fa fa-file-text-o"></i></a></div>
 
 </div>
@@ -35,13 +35,13 @@
                         <li><a href="#anchor-home">Kezdőlap</a></li>
                         <li><a href="#anchor-aboutme">Rólam</a></li>
                         <li><a href="#anchor-myworks">Munkáim</a></li>
-                        <li><a href="#anchor-contactme">Elérhetőségeim</a></li>
+                        <li><a href="#anchor-contactme">Elérhetőségek</a></li>
                     </ul>
                     <ul id="slide-out" class="side-nav">
                         <li><a href="#anchor-home">Kezdőlap</a></li>
                         <li><a href="#anchor-aboutme">Rólam</a></li>
                         <li><a href="#anchor-myworks">Munkáim</a></li>
-                        <li><a href="#anchor-contactme">Elérhetőségeim</a></li>
+                        <li><a href="#anchor-contactme">Elérhetőségek</a></li>
                     </ul> 
                     <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                 </div>
@@ -49,49 +49,149 @@
         </div>
     </div>
 </nav>
-<main>
+<main>   
     <div class="bugfixer" id="anchor-aboutme"></div>
-    <section class="aboutme"  style="height: 600px;">
+    <section class="aboutme">
         <div class="container">
-            <h1 class="text-center ">Heading </h1>
-            <p class=""> Sed at consequat diam. Phasellus cursus convallis libero, vel venenatis mauris sollicitudin vel. Cras ut nisl sem. Duis aliquam ultricies facilisis. Donec euismod accumsan vestibulum. Pellentesque id eros mauris. Nam a augue gravida, molestie urna sed, tincidunt justo. Sed vel diam quis diam lacinia lobortis. Vivamus vitae mauris vehicula, ornare urna quis, tincidunt lorem. Nulla facilisi. Donec suscipit pharetra condimentum. In faucibus malesuada risus, sit amet aliquam nibh venenatis feugiat. Nunc rhoncus tincidunt diam porttitor fringilla. Etiam sed dui ut dolor lobortis feugiat.
+            <h1 class="text-center">Rólam</h1>
+            <div class="greenline"></div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="myface">
+                        <img src="page/img/face.png" alt="Arc" class="img-responsive img-circle" />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-justify">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget neque et arcu ullamcorper laoreet. Mauris varius tortor vitae elit interdum laoreet. Vestibulum bibendum orci id enim sagittis fermentum. Morbi vel ante ut purus ullamcorper vehicula eget nec quam. Cras eleifend placerat eros nec consectetur. Suspendisse potenti. Duis dignissim tellus sit amet arcu consequat euismod. Vestibulum molestie est nec ante commodo commodo. Cras vel nisl ex.
 
-                Nam varius justo quis nunc auctor consectetur. Sed molestie fringilla ipsum non convallis. Aliquam vel orci mauris. Suspendisse purus lectus, semper ut pellentesque a, fermentum nec urna. Curabitur posuere lectus eros, vitae dictum ante sodales quis. In eget pharetra lectus. Praesent molestie augue eu odio faucibus, eu auctor mi fringilla. Suspendisse quis quam commodo, euismod dui ut, malesuada sapien. Donec nisi enim, gravida eget felis et, volutpat pulvinar orci. Suspendisse nec mauris semper, ornare odio at, porttitor nulla. Donec imperdiet lobortis convallis. Suspendisse consequat, diam at tempor vehicula, velit quam maximus sapien, sed feugiat nibh sapien eget eros. Proin felis urna, tristique viverra efficitur ac, gravida sed augue.
+Curabitur sapien augue, suscipit vestibulum ante at, eleifend mollis purus. Suspendisse blandit ex at est pretium varius. In dapibus orci vitae enim placerat, in aliquet nunc convallis. Proin lobortis orci diam, in molestie orci laoreet egestas. Nulla ut sapien lobortis, porttitor nunc vel, pharetra est. Nam ut porta mi, et ornare urna. Praesent consectetur libero sit amet volutpat molestie. Fusce hendrerit dictum volutpat. Suspendisse magna felis, aliquam id consectetur nec, dictum ut tellus. Aenean ut ligula velit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="infosaboutme">
 
-                Suspendisse bibendum risus dignissim, vestibulum velit eu, varius dolor. Nam pharetra eget orci a facilisis. Vestibulum metus sem, sollicitudin quis sem vitae, semper convallis sem. Nunc in neque libero. Proin semper nisl ipsum, eget posuere ante convallis nec. Maecenas imperdiet maximus nisi elementum suscipit. Aliquam blandit ultrices tortor non faucibus. Duis egestas dolor non consequat blandit. In vel venenatis massa. Nulla ultricies est sed sem consectetur ultrices. Etiam nunc risus, facilisis in augue nec, imperdiet porttitor urna. Morbi lacinia iaculis diam in consequat. Mauris lobortis enim vitae felis sollicitudin tempor. Aenean eu ex sit amet ligula tempor mollis. Morbi vitae rutrum est, vel tempus lacus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">                    
 
+                    <h4 class="text-center">Becsült tudás</h4>
+                    <div class="bars text-center">
+                        <ul class="list-unstyled">     
+                            <li><span class="bar-expand html5 fadeInLeft animated" ></span><em>HTML5</em></li>
+                            <li><span class="bar-expand css fadeInLeft animated"></span><em>CSS3</em></li>                    
+                            <li><span class="bar-expand js fadeInLeft animated" ></span><em>JavaScript</em></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>        
+    </section>
+
+    <div class="bugfixer" id="anchor-myworks"></div>
+    <section class="myworks">
+        <div class="container">
+            <h1 class="text-center ">Munkáim </h1>
+            <div class="greenline"></div>
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header active"><i class="material-icons">filter_drama</i>2013</div>
+                    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">place</i>2015</div>
+                    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                </li>                
+            </ul>
         </div>
     </section>
-    <div class="bugfixer" id="anchor-myworks"></div>
-    <section class="myworks"  style="height: 600px;">
-        <div class="container">
-            <h1 class="text-center ">Heading </h1>
-            <p class=""> Sed at consequat diam. Phasellus cursus convallis libero, vel venenatis mauris sollicitudin vel. Cras ut nisl sem. Duis aliquam ultricies facilisis. Donec euismod accumsan vestibulum. Pellentesque id eros mauris. Nam a augue gravida, molestie urna sed, tincidunt justo. Sed vel diam quis diam lacinia lobortis. Vivamus vitae mauris vehicula, ornare urna quis, tincidunt lorem. Nulla facilisi. Donec suscipit pharetra condimentum. In faucibus malesuada risus, sit amet aliquam nibh venenatis feugiat. Nunc rhoncus tincidunt diam porttitor fringilla. Etiam sed dui ut dolor lobortis feugiat.
 
-                Nam varius justo quis nunc auctor consectetur. Sed molestie fringilla ipsum non convallis. Aliquam vel orci mauris. Suspendisse purus lectus, semper ut pellentesque a, fermentum nec urna. Curabitur posuere lectus eros, vitae dictum ante sodales quis. In eget pharetra lectus. Praesent molestie augue eu odio faucibus, eu auctor mi fringilla. Suspendisse quis quam commodo, euismod dui ut, malesuada sapien. Donec nisi enim, gravida eget felis et, volutpat pulvinar orci. Suspendisse nec mauris semper, ornare odio at, porttitor nulla. Donec imperdiet lobortis convallis. Suspendisse consequat, diam at tempor vehicula, velit quam maximus sapien, sed feugiat nibh sapien eget eros. Proin felis urna, tristique viverra efficitur ac, gravida sed augue.
+    <div class="bugfixer" id="anchor-contactme"></div>
 
-                Suspendisse bibendum risus dignissim, vestibulum velit eu, varius dolor. Nam pharetra eget orci a facilisis. Vestibulum metus sem, sollicitudin quis sem vitae, semper convallis sem. Nunc in neque libero. Proin semper nisl ipsum, eget posuere ante convallis nec. Maecenas imperdiet maximus nisi elementum suscipit. Aliquam blandit ultrices tortor non faucibus. Duis egestas dolor non consequat blandit. In vel venenatis massa. Nulla ultricies est sed sem consectetur ultrices. Etiam nunc risus, facilisis in augue nec, imperdiet porttitor urna. Morbi lacinia iaculis diam in consequat. Mauris lobortis enim vitae felis sollicitudin tempor. Aenean eu ex sit amet ligula tempor mollis. Morbi vitae rutrum est, vel tempus lacus.</p>
+    <section class="contactme">
+        <div class="container">   
+            <h1 class="text-center">Elérhetőségek</h1>
+
+            <div class="greenline"></div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <form class="">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="input-field">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="icon_prefix" type="text" class="validate">
+                                    <label for="icon_prefix">Név</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-field">
+                                    <i class="material-icons prefix">email</i>
+                                    <input id="icon_email" type="email" class="validate">
+                                    <label for="icon_email">E-mail</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-field">
+                            <i class="material-icons prefix">subject</i>
+                            <input id="icon_subject" type="text" class="validate">
+                            <label for="icon_subject">Tárgy</label>
+                        </div>  
+                        <div class="input-field">
+                            <i class="material-icons prefix">textsms</i>                            
+                            <textarea id="icon-text" required="required" class="materialize-textarea"></textarea>
+                            <label for="icon_text">Üzenet</label>
+                        </div> 
+                        <div class="text-center">
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Küldés
+                                <i class="material-icons">send</i>
+                            </button>
+                        </div>
+                    </form>
+                </div>                  
+
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <ul class="list-unstyled">                                
+                            <li>
+                                <label>E-mail:</label><a href="#">bader.laszlo22@gmail.com</a>
+                            </li>
+                            <li>
+                                <label>Telefonszám:</label><a href="#">+36 70 251 7738</a>
+                            </li>                               
+                        </ul>                            
+                    </div>
+
+                </div>
+            </div>                
 
         </div>
     </section>
 </main>
-<footer>
-    <div class="bugfixer" id="anchor-contactme"></div>
-    <section class="contactme "  style="height: 600px;">
-        <div class="container">   
-            <h1 class="text-center">Heading </h1>
-            <form class="">                
-                <div class="input-field">
-                    <i class="material-icons prefix">account_circle</i>
-                    <input id="icon_prefix" type="text" class="validate">
-                    <label for="icon_prefix">Név</label>
-                </div>
-                <div class="input-field">
-                    <i class="material-icons prefix">phone</i>
-                    <input id="icon_telephone" type="tel" class="validate">
-                    <label for="icon_telephone">Telefonszám</label>
-                </div>               
-            </form>
+<div class="fake-parallaxTwo">  
+    <div class="social-icons">
+        <ul class="list-inline">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-skype"></i></a> </li>
+            <li><a href="#"><i class="fa fa-envelope"></i></a></li>  
+            <li><a href="#"><i class="fa fa-file-text-o"></i></a></li>
+
+        </ul>
+    </div>
+</div>
+<footer class="page-footer">    
+    <div class="footer-copyright text-center">
+        <div class="container">
+            © 2015 Blablabla <i class="fa fa-heart"></i> Blabla
         </div>
-    </section>
+    </div>
 </footer>
+

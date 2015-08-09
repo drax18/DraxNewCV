@@ -22,7 +22,8 @@ $(document).ready(function () {
     var $aboutme = $('.aboutme');
     var $myworks = $('.myworks');
     var $contactme = $('.contactme');
-// animate start
+// animate start 
+/*
     $aboutme.waypoint(function () {
         $('.aboutme h1').addClass('animated slideInUp');
         $('.aboutme p').addClass('animated slideInUp');
@@ -39,4 +40,5 @@ $(document).ready(function () {
 
     }, {offset: '90%'});
 // animate end
+*/
 });
