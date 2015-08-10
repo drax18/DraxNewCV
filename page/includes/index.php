@@ -74,7 +74,7 @@ Curabitur sapien augue, suscipit vestibulum ante at, eleifend mollis purus. Susp
             <div class="row">
                 <div class="col-lg-6">
                     <div class="infosaboutme">
-
+                        <div>asd</div>
                     </div>
                 </div>
                 <div class="col-lg-6">                    
