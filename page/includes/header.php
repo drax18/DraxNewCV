@@ -22,7 +22,7 @@
         <!-- Bootstrap Hooks -->
         <link href="page/css/bootstrap_hooks.css" rel="stylesheet" media="screen">
 
-        <!-- Pages CSS -->
+        <!-- Page CSS -->
         <link href="page/css/main.css" rel="stylesheet">
         <link href="page/css/index.css" rel="stylesheet">
 

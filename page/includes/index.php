@@ -1,10 +1,8 @@
 <div class="icons">
-    <div><a href="#"><i class="fa fa-facebook"></i></a></div>
-    <div><a href="#"><i class="fa fa-twitter"></i></a></div>
-    <div><a href="#"><i class="fa fa-skype"></i></a></div>   
-    <div><a href="#"><i class="fa fa-envelope"></i></a></div>    
-    <div><a href="#"><i class="fa fa-file-text-o"></i></a></div>
-
+    <div><a data-toggle="tooltip" data-placement="bottom" title="Facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100004893797602"><i class="fa fa-facebook"></i></a></div>
+    <div><a data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank" href="https://twitter.com/drax189?lang=hu"><i class="fa fa-twitter"></i></a></div>
+    <div><a data-toggle="tooltip" data-placement="bottom" title="Motivációs levél" href="#"><i class="fa fa-envelope"></i></a></div>    
+    <div><a data-toggle="tooltip" data-placement="bottom" title="Önéletrajz" href="#"><i class="fa fa-file-text-o"></i></a></div>
 </div>
 <div class="downbutton">
     <div>
@@ -26,10 +24,10 @@
 <nav class="sticky teal lighten-2">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <a href="index.php" class="brand-name"><div>Báder László</div><div><i class="material-icons">dashboard</i></div><div>Frontend fejlesztő</div></a>
+            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-9">
+                <a href="index.php" class="brand-name"><div>Báder László</div><div class="hidden-xs"><i class="material-icons">dashboard</i></div><div class="hidden-xs">Frontend fejlesztő</div></a>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-8 col-sm-4 col-xs-3">
                 <div class="pull-right">
                     <ul class="center-block hide-on-med-and-down">
                         <li><a href="#anchor-home">Kezdőlap</a></li>
@@ -56,29 +54,62 @@
             <h1 class="text-center">Rólam</h1>
             <div class="greenline"></div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 hidden-xs">
+                    <div class="infosaboutme">
+                        <table class=" table-responsive centered">
+                            <thead>
+                            <th colspan="4" class="text-center" >
+                            <div class="myface">
+                                <img src="page/img/face.png" alt="Arc" class="img-responsive img-circle" />
+                            </div>
+                            </th>         
+                            </thead>
+                            <tbody>                                
+                                <tr>
+                                    <td><div><i class="fa fa-user"></i></div><b>Teljes név</b></td>
+                                    <td><div><i class="fa fa-envelope"></i></div><b>E-mail</b></td>
+                                    <td><div><i class="fa fa-birthday-cake"></i></div><b>Születésnap</b></td>
+                                    <td><div><i class="fa fa-mobile"></i></div><b>Telefonszám</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div>Báder László</div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div>bader.laszlo22@gmail.com</div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div>1990 08. 06.</div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div>+36 70 251 7738</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 visible-xs">
                     <div class="myface">
                         <img src="page/img/face.png" alt="Arc" class="img-responsive img-circle" />
                     </div>
+                    <ul class="list-unstyled text-center">
+                        <li><b>Teljes név: </b>Báder László</li>
+                        <li><b>E-mail: </b>bader.laszlo22@gmail.com</li>
+                        <li><b>Születésnap: </b> 1990 08. 06.</li>
+                        <li><b>Telefonszám: </b>+36 70 251 7738</li>
+                    </ul>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="text-justify">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget neque et arcu ullamcorper laoreet. Mauris varius tortor vitae elit interdum laoreet. Vestibulum bibendum orci id enim sagittis fermentum. Morbi vel ante ut purus ullamcorper vehicula eget nec quam. Cras eleifend placerat eros nec consectetur. Suspendisse potenti. Duis dignissim tellus sit amet arcu consequat euismod. Vestibulum molestie est nec ante commodo commodo. Cras vel nisl ex.
-
-Curabitur sapien augue, suscipit vestibulum ante at, eleifend mollis purus. Suspendisse blandit ex at est pretium varius. In dapibus orci vitae enim placerat, in aliquet nunc convallis. Proin lobortis orci diam, in molestie orci laoreet egestas. Nulla ut sapien lobortis, porttitor nunc vel, pharetra est. Nam ut porta mi, et ornare urna. Praesent consectetur libero sit amet volutpat molestie. Fusce hendrerit dictum volutpat. Suspendisse magna felis, aliquam id consectetur nec, dictum ut tellus. Aenean ut ligula velit.
+                        <p>Báder László vagyok, kezdő Frontend fejlesztő. 2011 és 2013 között jártam Miskolcra a Computer School iskolában ahol Web-programozó ( felsőfokú OKJ ) képzést végeztem.
                         </p>
+                        <p>2013 őszén, rövid távú gyakornokként besegítettem a Futureweb Kft-nak. Itt tapasztalatot szereztem <b>Responsive design</b> készítésében, <b>Valid</b> kód és <b>Böngésző független</b> kódolásban.
+                        </p>
+                        <p>Ismerek CSS framework-öket <b>( Bootstrap, Materialize )</b>, Package manager-t <b>( Bower )</b>, CSS Precompiler-t <b>( LESS )</b>, valamit Verzió követő rendszert <b>( Git )</b>
+                        </p>
+                        <p>Természetesen <b>mindig</b> van mit tanulni. Szeretek kérdezni, új dolgokat megtanulni, elég kíváncsi ember vagyok.</p>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="infosaboutme">
-                        <div>asd</div>
-                    </div>
-                </div>
-                <div class="col-lg-6">                    
-
                     <h4 class="text-center">Becsült tudás</h4>
                     <div class="bars text-center">
                         <ul class="list-unstyled">     
@@ -89,48 +120,149 @@ Curabitur sapien augue, suscipit vestibulum ante at, eleifend mollis purus. Susp
                     </div>
                 </div>
             </div>
-
         </div>        
     </section>
-
     <div class="bugfixer" id="anchor-myworks"></div>
     <section class="myworks">
         <div class="container">
-            <h1 class="text-center ">Munkáim </h1>
+            <h1 class="text-center ">Munkáim</h1>
             <div class="greenline"></div>
-            <ul class="collapsible" data-collapsible="accordion">
-                <li>
-                    <div class="collapsible-header active"><i class="material-icons">filter_drama</i>2013</div>
-                    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-                </li>
-                <li>
-                    <div class="collapsible-header"><i class="material-icons">place</i>2015</div>
-                    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-                </li>                
-            </ul>
+            <div class="portf">
+                <h4><i>2013</i></h4>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="">
+                                <img class="img-responsive" src="page/img/work1.png" alt="Balance" />
+                                <div class="caption">
+                                    <h4 class="text-center">Balance</h4>                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="">
+                                <img class="img-responsive"  src="page/img/work2.png" alt="Club" />
+                                <div class="caption">
+                                    <h4 class="text-center">Club</h4>                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="">
+                                <img class="img-responsive"  src="page/img/work3.png" alt="Denico" />
+                                <div class="caption">
+                                    <h4 class="text-center">Denico</h4>                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="">
+                                <img class="img-responsive"  src="page/img/work4.png" alt="Gombos" />
+                                <div class="caption">
+                                    <h4 class="text-center">Gombos</h4>                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="">
+                                <img class="img-responsive"  src="page/img/work5.png" alt="Optimus" />
+                                <div class="caption">
+                                    <h4 class="text-center">Optimus</h4>                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="">
+                                <img class="img-responsive"  src="page/img/work6.png" alt="Szorgoskert" />
+                                <div class="caption">
+                                    <h4 class="text-center">Szorgoskert</h4>                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="">
+                                <img class="img-responsive"  src="page/img/work7.png" alt="Tender" />
+                                <div class="caption">
+                                    <h4 class="text-center">Tenderstart</h4>                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="">
+                                <img class="img-responsive"  src="page/img/work8.png" alt="Tisza" />
+                                <div class="caption">
+                                    <h4 class="text-center">Tisza Ingatlan</h4>                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <h4><i>2015</i></h4>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="index.php">
+                                <img class="img-responsive"  src="page/img/newwork1.png" alt="Tisza" />
+                                <div class="caption">
+                                    <h4 class="text-center">Web önéletrajz</h4>                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <a href="">
+                                <img class="img-responsive"  src="" alt="Készül" />
+                                <div class="caption">
+                                    <h4 class="text-center">Készül....</h4>                                
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <!-- for the későbbre :) -->
+                    </div>
+                    <div class="col-lg-3">
+                        <!-- for the későbbre :) -->
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
     <div class="bugfixer" id="anchor-contactme"></div>
-
     <section class="contactme">
         <div class="container">   
             <h1 class="text-center">Elérhetőségek</h1>
-
             <div class="greenline"></div>
-
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                     <form class="">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <div class="input-field">
                                     <i class="material-icons prefix">account_circle</i>
                                     <input id="icon_prefix" type="text" class="validate">
                                     <label for="icon_prefix">Név</label>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <div class="input-field">
                                     <i class="material-icons prefix">email</i>
                                     <input id="icon_email" type="email" class="validate">
@@ -138,7 +270,6 @@ Curabitur sapien augue, suscipit vestibulum ante at, eleifend mollis purus. Susp
                                 </div>
                             </div>
                         </div>
-
                         <div class="input-field">
                             <i class="material-icons prefix">subject</i>
                             <input id="icon_subject" type="text" class="validate">
@@ -155,9 +286,8 @@ Curabitur sapien augue, suscipit vestibulum ante at, eleifend mollis purus. Susp
                             </button>
                         </div>
                     </form>
-                </div>                  
-
-                <div class="col-lg-4">
+                </div>                 
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="contact-info">
                         <ul class="list-unstyled">                                
                             <li>
@@ -178,20 +308,12 @@ Curabitur sapien augue, suscipit vestibulum ante at, eleifend mollis purus. Susp
 <div class="fake-parallaxTwo">  
     <div class="social-icons">
         <ul class="list-inline">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-skype"></i></a> </li>
-            <li><a href="#"><i class="fa fa-envelope"></i></a></li>  
-            <li><a href="#"><i class="fa fa-file-text-o"></i></a></li>
-
+            <li><a title="Facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100004893797602"><i class="fa fa-facebook"></i></a></li>
+            <li><a title="Twitter" target="_blank" href="https://twitter.com/drax189?lang=hu"><i class="fa fa-twitter"></i></a></li>
+            <li><a title="Motivációs levél" href="#"><i class="fa fa-envelope"></i></a></li>  
+            <li><a title="Önéletrajz" href="#"><i class="fa fa-file-text-o"></i></a></li>
         </ul>
     </div>
 </div>
-<footer class="page-footer">    
-    <div class="footer-copyright text-center">
-        <div class="container">
-            © 2015 Blablabla <i class="fa fa-heart"></i> Blabla
-        </div>
-    </div>
-</footer>
+
 

@@ -15,3 +15,10 @@ footer.page-footer{
 .input-field label.active{
     font-size: 10px;
 }
+.infosaboutme thead {
+    border-bottom: 10px solid #26a69a;
+}
+.side-nav a{
+    font-size: 24px;
+    font-family: 'Roboto';
+}

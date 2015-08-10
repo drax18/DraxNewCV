@@ -2,9 +2,6 @@
     padding-top: 0px; 
     padding-bottom: 0px;
 }
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
-
-}
 .nav > li > a {
     padding: 0;
 }
@@ -19,4 +16,31 @@
 .list-inline > li{
     
     display: inline-table;
+}
+.thumbnail{
+    border:0;
+}
+.tooltip-inner{
+    background-color: #26a69a;
+    color:white;   
+}
+.tooltip.bottom .tooltip-arrow{
+    border-bottom-color:#26a69a;
+}
+.fake-parallaxTwo .tooltip-inner{
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+.fake-parallaxTwo .tooltip.bottom .tooltip-arrow{
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.table-responsive{
+    border: none;
 }
