@@ -102,11 +102,11 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="text-justify">
-                        <p>Báder László vagyok, kezdő Frontend fejlesztő. 2011 és 2013 között jártam Miskolcra a Computer School iskolában ahol Web-programozó ( felsőfokú OKJ ) képzést végeztem.
+                        <p>Báder László vagyok, kezdő Frontend fejlesztő. 2011-2013 között végeztem Miskolcon a Computer School Szakképző Iskolában ahol Web-programozó képzést szereztem.
                         </p>
-                        <p>2013 őszén, rövid távú gyakornokként besegítettem a Futureweb Kft-nak. Itt tapasztalatot szereztem <b>Responsive design</b> készítésében, <b>Valid</b> kód és <b>Böngésző független</b> kódolásban.
+                        <p>2013 őszén, rövid távú gyakornokként egítettem a Futureweb Kft-nak. Itt tapasztalatot szereztem <b>Responsive design</b> készítésében, <b>Valid</b> kód és <b>Böngésző független</b> kódolásban.
                         </p>
-                        <p>Ismerek CSS framework-öket <b>( Bootstrap, Materialize )</b>, Package manager-t <b>( Bower )</b>, CSS Precompiler-t <b>( LESS )</b>, valamit Verzió követő rendszert <b>( Git )</b>
+                        <p>Ismerek CSS framework-öket <b>( Bootstrap, Materialize )</b>, Package manager-t <b>( Bower, Node.js )</b>, CSS Precompiler-t <b>( LESS )</b>, valamit Verzió követő rendszert <b>( Git )</b> és még egyéb ezzekkel kapcsolatos dolgokat.
                         </p>
                         <p>Természetesen <b>mindig</b> van mit tanulni. Szeretek kérdezni, új dolgokat megtanulni, elég kíváncsi ember vagyok.</p>
                     </div>
