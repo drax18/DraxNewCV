@@ -104,7 +104,7 @@
                     <div class="text-justify">
                         <p>Báder László vagyok, kezdő Frontend fejlesztő. 2011-2013 között végeztem Miskolcon a Computer School Szakképző Iskolában ahol Web-programozó bizonyítványt szereztem.
                         </p>
-                        <p>2013 őszén, rövid távú gyakornokként segítettem a Futureweb Kft-nak. Itt tapasztalatot szereztem <b>Responsive design</b> készítésében, <b>Valid</b> kód és <b>Böngésző független</b> kódolásban.
+                        <p>2013 őszén, rövid távú gyakornokként segítettem a Futureweb Kft-nak mint Builder. Itt tapasztalatot szereztem <b>Responsive design</b> készítésében, <b>Valid</b> kód és <b>Böngésző független</b> kódolásban.
                         </p>
                         <p>Ismerek CSS framework-öket <b>( Bootstrap, Materialize )</b>, Package manager-t <b>( Bower, Node.js )</b>, CSS Precompiler-t <b>( LESS )</b>, valamit Verzió követő rendszert <b>( Git )</b> és még egyéb ezzekkel kapcsolatos dolgokat.
                         </p>
