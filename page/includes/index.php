@@ -102,15 +102,15 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="text-justify">
-                        <p>Báder László vagyok, kezdő Frontend fejlesztő. 2011-2013 között végeztem Miskolcon a Computer School Szakképző Iskolában ahol Web-programozó képzést szereztem.
+                        <p>Báder László vagyok, kezdő Frontend fejlesztő. 2011-2013 között végeztem Miskolcon a Computer School Szakképző Iskolában ahol Web-programozó bizonyítványt szereztem.
                         </p>
-                        <p>2013 őszén, rövid távú gyakornokként egítettem a Futureweb Kft-nak. Itt tapasztalatot szereztem <b>Responsive design</b> készítésében, <b>Valid</b> kód és <b>Böngésző független</b> kódolásban.
+                        <p>2013 őszén, rövid távú gyakornokként segítettem a Futureweb Kft-nak. Itt tapasztalatot szereztem <b>Responsive design</b> készítésében, <b>Valid</b> kód és <b>Böngésző független</b> kódolásban.
                         </p>
                         <p>Ismerek CSS framework-öket <b>( Bootstrap, Materialize )</b>, Package manager-t <b>( Bower, Node.js )</b>, CSS Precompiler-t <b>( LESS )</b>, valamit Verzió követő rendszert <b>( Git )</b> és még egyéb ezzekkel kapcsolatos dolgokat.
                         </p>
                         <p>Természetesen <b>mindig</b> van mit tanulni. Szeretek kérdezni, új dolgokat megtanulni, elég kíváncsi ember vagyok.</p>
                     </div>
-                    <h4 class="text-center">Becsült tudás</h4>
+                    <h4 class="text-center">Becsült tudásom</h4>
                     <div class="bars text-center">
                         <ul class="list-unstyled">     
                             <li><span class="bar-expand html5 fadeInLeft animated" ></span><em>HTML5</em></li>
@@ -213,7 +213,6 @@
                         </div>
                     </div>
                 </div>
-
                 <h4><i>2015</i></h4>
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -253,35 +252,83 @@
             <div class="greenline"></div>
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                    <form class="">
+                    <?php
+                    if (isset($_POST['submit'])) {
+                        require("page/phpmailer/class.phpmailer.php");
+                        require("page/phpmailer/class.smtp.php");
+                        require ("page/phpmailer/PHPMailerAutoload.php");
+                        $bool = true;
+                        $uzenet = "";
+                        if ($bool == true) {
+                            $nev = $_POST['name'];
+                            $email = $_POST['email'];
+                            $subject = $_POST['subject'];
+                            $message = $_POST['message'];
+                            $uzenet .= "Név: $nev" . "<br />";
+                            $uzenet .= "E-mail: $email" . "<br />";
+                            $uzenet .= "Üzenet:" . "<br />";
+                            $uzenet .= $message;
+
+
+                            $mail2 = new PHPMailer();
+                            $mail2->IsSMTP();
+                            $mail2->Host = "smtp.gmail.com";
+                            $mail2->SMTPSecure = "tls";
+
+                            // optional
+                            // used only when SMTP requires authentication  
+                            $mail2->SMTPAuth = true;
+                            $mail2->Username = 'kisunuszi@gmail.com';
+                            $mail2->Password = 'qsefth5511r';
+                            $mail2->Port = 587;
+                            //     $mail2->From = $email;
+                            $mail2->Sender = $email;
+                            $mail2->setFrom($email, $nev, true);
+                            //    $mail2->FromName = $nev;
+                            $mail2->CharSet = "UTF-8";
+                            $mail2->IsHTML(true);
+                            $mail2->AddAddress("bader.laszlo22@gmail.com");
+                            $mail2->Subject = $subject;
+                            $mail2->Body = $uzenet;
+                            if (!$mail2->Send()) {
+                                echo $mail2->ErrorInfo;
+                            } else {
+                                ?>
+                    <div class="text-center animated emailsuccess fadeOutUp"><b>Sikeresen elkülted a levelet!</b></div>
+                                <?php
+                            }
+                        }
+                    }
+                    ?>
+                    <form method="post" action="index.php#anchor-contactme">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <div class="input-field">
                                     <i class="material-icons prefix">account_circle</i>
-                                    <input id="icon_prefix" type="text" class="validate">
+                                    <input id="icon_prefix" type="text" class="validate" name="name" required="required">
                                     <label for="icon_prefix">Név</label>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <div class="input-field">
                                     <i class="material-icons prefix">email</i>
-                                    <input id="icon_email" type="email" class="validate">
+                                    <input id="icon_email" type="email" class="validate" name="email" required="required">
                                     <label for="icon_email">E-mail</label>
                                 </div>
                             </div>
                         </div>
                         <div class="input-field">
                             <i class="material-icons prefix">subject</i>
-                            <input id="icon_subject" type="text" class="validate">
+                            <input id="icon_subject" type="text" class="validate" name="subject" required="required">
                             <label for="icon_subject">Tárgy</label>
                         </div>  
                         <div class="input-field">
                             <i class="material-icons prefix">textsms</i>                            
-                            <textarea id="icon-text" required="required" class="materialize-textarea"></textarea>
+                            <textarea id="icon-text" required="required" class="materialize-textarea validate" name="message"></textarea>
                             <label for="icon_text">Üzenet</label>
                         </div> 
                         <div class="text-center">
-                            <button class="btn waves-effect waves-light" type="submit" name="action">Küldés
+                            <button class="btn waves-effect waves-light" type="submit" name="submit">Küldés
                                 <i class="material-icons">send</i>
                             </button>
                         </div>
@@ -298,10 +345,8 @@
                             </li>                               
                         </ul>                            
                     </div>
-
                 </div>
-            </div>                
-
+            </div>               
         </div>
     </section>
 </main>

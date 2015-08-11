@@ -19,7 +19,15 @@ a:hover, a:focus{
     text-decoration: none;
     color:white;
 }
+/* Email */
 
+.emailsuccess{
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+/* Email end */
 /* Firefox bugfixer */
 .bugfixer{
     height: 64px;
@@ -73,6 +81,8 @@ a:hover, a:focus{
     bottom: 5px;
     border: 5px solid white;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
 }
 .sub-myname div{
     position: relative;
@@ -82,6 +92,8 @@ a:hover, a:focus{
     width: 300px;
     margin: 0px auto;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border:10px solid white;
     background-color: rgba(38,166,154,0.7);
     transition: border-color 1s;
@@ -231,6 +243,8 @@ a:hover, a:focus{
     background: #bdc3c7;
     height: 30px;
     border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
     overflow: hidden;
 }
 .bars .css{
@@ -255,7 +269,9 @@ a:hover, a:focus{
     display: inline-block;
     height: 42px;
     line-height: 42px;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;    
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
 }
 .bars li em {
     color: #fff;
@@ -360,6 +376,8 @@ a:hover, a:focus{
     width: 80px;
     height: 80px;    
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
 }
 .social-icons ul li + li{
     margin-left: 30px;

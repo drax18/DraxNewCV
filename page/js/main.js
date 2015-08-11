@@ -16,7 +16,7 @@ $(document).ready(function () {
 
     $('.parallax').parallax(); // Parallax hátterek
     
-    $('.myname').height($(window).height()); // myname magasság ( iPhone )
+  
     
     
     
@@ -66,5 +66,8 @@ $(document).ready(function () {
 
     }, {offset: '95%'});
 // animate end
+    setInterval(function(){ 
+        $('.emailsuccess').empty();
+    }, 5500);
 
 });
