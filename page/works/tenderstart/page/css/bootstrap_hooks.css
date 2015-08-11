@@ -1,0 +1,27 @@
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav > li > a {
+    padding: 0;
+    color:white;
+    font-size: 16px;
+    
+
+}
+.nav li{
+    margin-left: 40px;
+    margin-top: 18px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    border-bottom: 3px solid #fcd47f;
+    background-color: transparent;
+
+}
+.menu .navbar{
+    margin-left: 255px;
+}

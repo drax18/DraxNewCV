@@ -1,8 +1,8 @@
 <div class="icons">
     <div><a data-toggle="tooltip" data-placement="bottom" title="Facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100004893797602"><i class="fa fa-facebook"></i></a></div>
     <div><a data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank" href="https://twitter.com/drax189?lang=hu"><i class="fa fa-twitter"></i></a></div>
-    <div><a data-toggle="tooltip" data-placement="bottom" title="Motivációs levél" href="#"><i class="fa fa-envelope"></i></a></div>    
-    <div><a data-toggle="tooltip" data-placement="bottom" title="Önéletrajz" href="#"><i class="fa fa-file-text-o"></i></a></div>
+    <div><a data-toggle="tooltip" data-placement="bottom" title="Motivációs levél" href="page/files/Báder_László_Motivációs_levél.pdf"><i class="fa fa-envelope"></i></a></div>    
+    <div><a data-toggle="tooltip" data-placement="bottom" title="Önéletrajz" href="page/files/Báder_László_Önéletrajz.pdf"><i class="fa fa-file-text-o"></i></a></div>
 </div>
 <div class="downbutton">
     <div>
@@ -132,86 +132,44 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="">
-                                <img class="img-responsive" src="page/img/work1.png" alt="Balance" />
-                                <div class="caption">
-                                    <h4 class="text-center">Balance</h4>                                
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <a href="">
-                                <img class="img-responsive"  src="page/img/work2.png" alt="Club" />
+                            <a href="page/works/club" target="_blank">
+                                <img class="img-responsive" src="page/img/work2.png" alt="Balance" />
                                 <div class="caption">
                                     <h4 class="text-center">Club</h4>                                
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="">
+                            <a href="page/works/denico" target="_blank">
                                 <img class="img-responsive"  src="page/img/work3.png" alt="Denico" />
                                 <div class="caption">
                                     <h4 class="text-center">Denico</h4>                                
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                  
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="">
-                                <img class="img-responsive"  src="page/img/work4.png" alt="Gombos" />
-                                <div class="caption">
-                                    <h4 class="text-center">Gombos</h4>                                
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <a href="">
+                            <a href="page/works/optimus" target="_blank">
                                 <img class="img-responsive"  src="page/img/work5.png" alt="Optimus" />
                                 <div class="caption">
                                     <h4 class="text-center">Optimus</h4>                                
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                  
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="">
-                                <img class="img-responsive"  src="page/img/work6.png" alt="Szorgoskert" />
-                                <div class="caption">
-                                    <h4 class="text-center">Szorgoskert</h4>                                
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <a href="">
+                            <a href="page/works/tenderstart" target="_blank">
                                 <img class="img-responsive"  src="page/img/work7.png" alt="Tender" />
                                 <div class="caption">
                                     <h4 class="text-center">Tenderstart</h4>                                
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <a href="">
-                                <img class="img-responsive"  src="page/img/work8.png" alt="Tisza" />
-                                <div class="caption">
-                                    <h4 class="text-center">Tisza Ingatlan</h4>                                
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    </div>                    
                 </div>
                 <h4><i>2015</i></h4>
                 <div class="row">
@@ -273,14 +231,14 @@
                             $mail2 = new PHPMailer();
                             $mail2->IsSMTP();
                             $mail2->Host = "smtp.gmail.com";
-                            $mail2->SMTPSecure = "tls";
+                            $mail2->SMTPSecure = "ssl";
 
                             // optional
                             // used only when SMTP requires authentication  
                             $mail2->SMTPAuth = true;
                             $mail2->Username = 'kisunuszi@gmail.com';
                             $mail2->Password = 'qsefth5511r';
-                            $mail2->Port = 587;
+                            $mail2->Port = 465;
                             //     $mail2->From = $email;
                             $mail2->Sender = $email;
                             $mail2->setFrom($email, $nev, true);
@@ -294,13 +252,13 @@
                                 echo $mail2->ErrorInfo;
                             } else {
                                 ?>
-                    <div class="text-center animated emailsuccess fadeOutUp"><b>Sikeresen elkülted a levelet!</b></div>
+                                <div class="text-center animated emailsuccess fadeOutUp"><b>Sikeresen elkülted a levelet!</b></div>
                                 <?php
                             }
                         }
                     }
                     ?>
-                    <form method="post" action="index.php#anchor-contactme">
+                    <form method="post" action="index.php#anchor-contactme" >
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <div class="input-field">
@@ -338,7 +296,7 @@
                     <div class="contact-info">
                         <ul class="list-unstyled">                                
                             <li>
-                                <label>E-mail:</label><a href="#">bader.laszlo22@gmail.com</a>
+                                <label>E-mail:</label><a href="mailto:someone@example.com" target="_top">bader.laszlo22@gmail.com</a>
                             </li>
                             <li>
                                 <label>Telefonszám:</label><a href="#">+36 70 251 7738</a>
@@ -355,8 +313,8 @@
         <ul class="list-inline">
             <li><a title="Facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100004893797602"><i class="fa fa-facebook"></i></a></li>
             <li><a title="Twitter" target="_blank" href="https://twitter.com/drax189?lang=hu"><i class="fa fa-twitter"></i></a></li>
-            <li><a title="Motivációs levél" href="#"><i class="fa fa-envelope"></i></a></li>  
-            <li><a title="Önéletrajz" href="#"><i class="fa fa-file-text-o"></i></a></li>
+            <li><a title="Motivációs levél" href="page/files/Báder_László_Motivációs_levél.pdf"><i class="fa fa-envelope"></i></a></li>  
+            <li><a title="Önéletrajz" href="page/files/Báder_László_Önéletrajz.pdf"><i class="fa fa-file-text-o"></i></a></li>
         </ul>
     </div>
 </div>

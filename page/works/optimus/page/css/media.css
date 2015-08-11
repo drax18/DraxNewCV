@@ -1,0 +1,141 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 980px) and (max-width:1199px) {
+
+}
+@media (max-width:1200px){
+    .footerboxes {
+        margin-left: 770px;
+    }
+    .menu li{
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .flags div{
+        display: inline-block;
+        padding-left: 10px;
+        text-align: center;
+    }
+    .flags{
+        padding-left: 0;
+        text-align: center;
+    }
+    .navHeader{
+        text-align: center;
+    }
+    .menu{
+        display: inline-block;
+        *display:inline;
+        *zoom:1;
+        vertical-align:top;
+        float:none;
+    }
+    .navbar-toggle{
+        padding: 12px 10px;
+        background-color: #c0c0c0;
+        color:white;
+    }
+    .navbar-toggle:before, .navbar-toggle:after{
+        clear: both;
+        content: "";
+    }
+    .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+    .navbar{
+        margin-bottom: 0;
+        border:none;
+        min-height: 0;
+    }
+    .logo img{
+        margin: auto;
+    }
+    .header{
+        height: auto;
+        background-repeat: repeat-y;
+    }
+    .leftindex{
+        border-right: none;
+    }
+    .marginright{
+        margin-right: 0;
+    }
+    .container > .navbar-collapse {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .rightindex{
+        padding-left: 50px;
+    }
+}
+@media (max-width:992px){
+    .index-items img{
+        margin:  auto;
+    }
+}
+@media (max-width:500px){
+    .futureweb{
+        float:none;
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .copright{
+        padding: 0;
+        padding-top: 5px;
+        float:none;
+        padding-bottom: 5px;
+        width: 100%;
+        text-align: center;
+    }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .footerboxes {
+        margin-left: 680px;
+    }
+}
+@media (max-width: 785px) {
+    .footerboxes{
+        display: none;
+    }
+    .indexlittlebox{
+        display: none;
+    }
+    .indexlittlebox2{
+        display: none;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .menu li {
+        display: block;
+    }
+
+}
+@media (max-width: 719px) {
+    .service-box div {
+        display: block;
+        text-align: center;
+    }
+    .service-box div:nth-child(3) a {
+        padding-left: 2px;
+
+        margin: 2px auto;
+    }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
+
+
+
+

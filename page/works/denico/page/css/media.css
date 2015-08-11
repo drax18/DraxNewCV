@@ -1,0 +1,256 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 980px) and (max-width:1199px) {
+
+}
+@media (max-width:1200px){
+
+    .navbar-toggle{
+        padding: 12px 10px;
+        background-color: #e7e7e7;
+        color:white;
+    }
+    .navbar-toggle:before, .navbar-toggle:after{
+        clear: both;
+        content: "";
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #999;
+    }
+    .navbar{
+        margin-bottom: 0;
+        border:none;
+        min-height: 0;
+    }   
+    .container > .navbar-collapse {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nav > li {
+        margin-right: 10px;
+    }
+    .navbar-nav > li > a{
+        font-size: 12px;
+    }
+    .carousel-indicators {
+
+        margin-left: -10px;
+    }
+    .boxes img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+
+    .h-calculate{
+        width: auto;
+    }
+    .h-calculate table {
+        width: 255px;
+
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .ok-btn a {
+        margin: 10px auto;
+    }
+    .p-box{
+        max-width: 100%;
+        height: auto;
+    }
+    .overlay{
+        max-width: 100%;
+        height: auto;
+    }
+    .plus, .plus2{
+        max-width: 100%;
+        height: 156px;
+    }
+    .send-form input[type="text"] {
+        width: auto;
+    }
+    .send{
+        margin-left: 0;
+    }
+    .send-form textarea{
+        width: auto;
+        padding: 6px;
+    }
+}
+@media (max-width:991px){
+    .menu{
+        margin-bottom: 10px;
+    }
+    .logo{
+        text-align: center;
+    }
+    .logo img{
+        margin: auto;
+    }
+    .nav > li {
+        padding-top: 15px;
+        margin-right: 20px;
+    }
+    .active-menu{
+        background: none;
+    }
+    .nav > li:hover{
+        background: none;
+    }
+    .boxes img{
+        margin: 5px auto;
+    }
+    .container-box{
+
+        padding-top: 0;
+
+    }
+    .container-foot{
+        padding: 0;
+    }
+    .navbar-nav > li > a{
+        font-size: 13px;
+    }
+    .navbar{
+        margin-right: 45px;
+    }
+    .mat-box img{
+        margin: 5px auto;
+    }
+    .select-mat div{
+        display: inline-block;
+    }
+    .select-mat{
+        text-align: center;
+    }
+    .r-left, .r-right{
+        float:none;
+        margin-left: 0;
+        margin: 5px auto;
+    }
+    .redony{
+        text-align: center;
+    }
+    .r-right div a{
+        margin: 10px auto;
+    }
+    .height img{
+        margin: 10px auto;
+    }
+    .h-calculate table{
+        width: 100%;
+    }
+    .h-calculate table tr td:last-child {
+        float: none;
+    }
+    .h-calculate table tr:first-child td:nth-child(3){
+        padding-left: 10px;
+    }
+    .h-calculate table tr:last-child td:nth-child(3) {
+        padding-left: 10px;
+    }
+    .h-calculate table tr td:nth-child(3) {
+        padding-left: 0;
+    }
+    .h-calculate table tr:nth-child(3) td{
+    }
+    .h-calculate table tr td{
+        padding: 10px;
+    }
+    .h-calculate{
+        height: auto;
+    }
+    .h-calculate table{
+        margin: 0px;
+
+    }
+    .send-title, .contacts-title, .open-title{
+        text-align: center;
+    }
+    .cont-table{
+        margin: 5px auto;
+    }
+    .opens{
+        text-align: center;
+    }
+    .send table{
+        margin: 5px auto;
+    }
+    .send-form input[type="text"] {
+        width: auto;
+    }
+    .send-form textarea{
+        width: auto;
+        padding: 6px;
+    }
+    .p-box{
+        margin: 5px auto;
+    }
+    .send{
+        margin-left: 0px;
+    }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .navbar{
+        margin-right: 0;
+    }
+    .text1{
+        padding: 5px;
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbar{
+        float:none !important;
+    }
+    .navbar-collapse{
+        max-height: none;
+    }
+    .navbar-nav > li{
+        padding-top: 2px;
+        text-align: center;
+    }
+    .navbar-nav > li > a{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-collapse.in {
+        overflow-y: hidden;
+    }
+    .futureweb{
+        float:none;
+        margin: 0;
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .futureweb img{
+        margin: 5px auto;
+    }
+    .nav > li{
+        margin: 0;
+    }
+    .navbar-nav {
+        margin: 0px;
+    }
+    .calculator-footer a{
+        width: 100%;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}

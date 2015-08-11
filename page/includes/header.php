@@ -3,9 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <meta name="viewport" content="width=device-width, initial-scale=1">      
 
-        <title>Materialize</title>
+        
+        <meta name="description" content="Báder László Weboldal Önéletrajz" />
+        <meta name="keywords" content="Báder László Weboldal Önéletrajz Materialize Bootstrap" />
+        <meta name="author" content="metatags generator">
+        <meta name="robots" content="index, follow">
+        <meta name="revisit-after" content="1 month">
+        <title>Báder László - Weboldal Önéletrajz</title>
+        
+
 
         <!-- Normalize -->
         <link href="page/css/normalize.css" rel="stylesheet">  
