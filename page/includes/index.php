@@ -2,7 +2,7 @@
     <div><a data-toggle="tooltip" data-placement="bottom" title="Facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100004893797602"><i class="fa fa-facebook"></i></a></div>
     <div><a data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank" href="https://twitter.com/drax189?lang=hu"><i class="fa fa-twitter"></i></a></div>
     <div><a data-toggle="tooltip" data-placement="bottom" title="Levél küldés" href="mailto:bader.laszlo22@gmail.com" target="_top"><i class="fa fa-envelope"></i></a></div>    
-    <div><a data-toggle="tooltip" data-placement="bottom" title="Önéletrajz" href="page/files/Báder_László_Önéletrajz.pdf"><i class="fa fa-file-text-o"></i></a></div>
+    <div><a data-toggle="tooltip" data-placement="bottom" title="Önéletrajz" href="page/files/Báder_László_Önéletrajz.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a></div>
 </div>
 <div class="downbutton">
     <div>
@@ -326,7 +326,7 @@
             <li><a title="Facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100004893797602"><i class="fa fa-facebook"></i></a></li>
             <li><a title="Twitter" target="_blank" href="https://twitter.com/drax189?lang=hu"><i class="fa fa-twitter"></i></a></li>
             <li><a title="Levél küldés" href="mailto:bader.laszlo22@gmail.com" target="_top"><i class="fa fa-envelope"></i></a></li>  
-            <li><a title="Önéletrajz" href="page/files/Báder_László_Önéletrajz.pdf"><i class="fa fa-file-text-o"></i></a></li>
+            <li><a title="Önéletrajz" href="page/files/Báder_László_Önéletrajz.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a></li>
         </ul>
     </div>
 </div>
