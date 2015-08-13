@@ -5,14 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">      
 
-        
+
         <meta name="description" content="Báder László Weboldal Önéletrajz" />
         <meta name="keywords" content="Báder László Weboldal Önéletrajz Materialize Bootstrap" />
         <meta name="author" content="metatags generator">
         <meta name="robots" content="index, follow">
         <meta name="revisit-after" content="1 month">
         <title>Báder László - Weboldal Önéletrajz</title>
-        
+
+
 
 
         <!-- Normalize -->
@@ -47,3 +48,4 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+  

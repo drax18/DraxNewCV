@@ -2,7 +2,7 @@ $(document).ready(function () {
       $tabh = $(window).height();
       
       if($tabh < 539){
-          $('.sub-myname div').css('height',250 + 'px');
+          $('.sub-myname div').css('height',250 + 'px');          
           $('.sub-myname div').css('width',250 + 'px');
           $('.sub-myname h1').css('font-size',30 + 'px');
           $('.sub-myname span').css('padding-right',30 + 'px');

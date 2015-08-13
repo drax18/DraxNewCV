@@ -1,7 +1,7 @@
 <div class="icons">
     <div><a data-toggle="tooltip" data-placement="bottom" title="Facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100004893797602"><i class="fa fa-facebook"></i></a></div>
     <div><a data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank" href="https://twitter.com/drax189?lang=hu"><i class="fa fa-twitter"></i></a></div>
-    <div><a data-toggle="tooltip" data-placement="bottom" title="Motivációs levél" href="page/files/Báder_László_Motivációs_levél.pdf"><i class="fa fa-envelope"></i></a></div>    
+    <div><a data-toggle="tooltip" data-placement="bottom" title="Levél küldés" href="mailto:bader.laszlo22@gmail.com" target="_top"><i class="fa fa-envelope"></i></a></div>    
     <div><a data-toggle="tooltip" data-placement="bottom" title="Önéletrajz" href="page/files/Báder_László_Önéletrajz.pdf"><i class="fa fa-file-text-o"></i></a></div>
 </div>
 <div class="downbutton">
@@ -56,13 +56,15 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 hidden-xs">
                     <div class="infosaboutme">
-                        <table class=" table-responsive centered">
+                        <table class="table-responsive centered">
                             <thead>
-                            <th colspan="4" class="text-center" >
+                                <tr>
+                                    <th colspan="4" class="text-center" >
                             <div class="myface">
                                 <img src="page/img/face.png" alt="Arc" class="img-responsive img-circle" />
                             </div>
-                            </th>         
+                            </th>    
+                            </tr>
                             </thead>
                             <tbody>                                
                                 <tr>
@@ -106,7 +108,7 @@
                         </p>
                         <p>2013 őszén, rövid távú gyakornokként segítettem a Futureweb Kft-nak mint Builder. Itt tapasztalatot szereztem <b>Responsive design</b> készítésében, <b>Valid</b> kód és <b>Böngésző független</b> kódolásban.
                         </p>
-                        <p>Ismerek CSS framework-öket <b>( Bootstrap, Materialize )</b>, Package manager-t <b>( Bower, Node.js )</b>, CSS Precompiler-t <b>( LESS )</b>, valamit Verzió követő rendszert <b>( Git )</b> és még egyéb ezzekkel kapcsolatos dolgokat.
+                        <p>Ismerek CSS framework-öket <b>( Bootstrap, Materialize )</b>, Package manager-t <b>( Bower )</b>, CSS Precompiler-t <b>( LESS )</b>, valamit Verzió követő rendszert <b>( Git )</b> és még egyéb ezzekkel kapcsolatos dolgokat.
                         </p>
                         <p>Természetesen <b>mindig</b> van mit tanulni. Szeretek kérdezni, új dolgokat megtanulni, elég kíváncsi ember vagyok.</p>
                     </div>
@@ -125,7 +127,7 @@
     <div class="bugfixer" id="anchor-myworks"></div>
     <section class="myworks">
         <div class="container">
-            <h1 class="text-center ">Munkáim</h1>
+            <h1 class="text-center">Munkáim</h1>
             <div class="greenline"></div>
             <div class="portf">
                 <h4><i>2013</i></h4>
@@ -186,7 +188,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="thumbnail">
                             <a href="">
-                                <img class="img-responsive"  src="" alt="Készül" />
+                            <!--    <img class="img-responsive"  src="" alt="Készül" /> -->
                                 <div class="caption">
                                     <h4 class="text-center">Készül....</h4>                                
                                 </div>
@@ -226,38 +228,46 @@
                             $uzenet .= "E-mail: $email" . "<br />";
                             $uzenet .= "Üzenet:" . "<br />";
                             $uzenet .= $message;
+                            $to = "bader.laszlo22@gmail.com";
+                            $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+                            mail($to, $subject, $uzenet, $headers);
+                            ?>
+                            <div class="text-center animated emailsuccess fadeOutUp"><b>Sikeresen elkülted a levelet!</b></div>
+                            <?php
+                            /*
 
+                              $mail2 = new PHPMailer();
+                              $mail2->IsSMTP();
+                              $mail2->Host = "mx1.hostinger.hu";
+                              $mail2->SMTPSecure = "ssl";
 
-                            $mail2 = new PHPMailer();
-                            $mail2->IsSMTP();
-                            $mail2->Host = "smtp.gmail.com";
-                            $mail2->SMTPSecure = "ssl";
-
-                            // optional
-                            // used only when SMTP requires authentication  
-                            $mail2->SMTPAuth = true;
-                            $mail2->Username = 'kisunuszi@gmail.com';
-                            $mail2->Password = 'qsefth5511r';
-                            $mail2->Port = 465;
-                            //     $mail2->From = $email;
-                            $mail2->Sender = $email;
-                            $mail2->setFrom($email, $nev, true);
-                            //    $mail2->FromName = $nev;
-                            $mail2->CharSet = "UTF-8";
-                            $mail2->IsHTML(true);
-                            $mail2->AddAddress("bader.laszlo22@gmail.com");
-                            $mail2->Subject = $subject;
-                            $mail2->Body = $uzenet;
-                            if (!$mail2->Send()) {
-                                echo $mail2->ErrorInfo;
-                            } else {
-                                ?>
-                                <div class="text-center animated emailsuccess fadeOutUp"><b>Sikeresen elkülted a levelet!</b></div>
-                                <?php
-                            }
+                              // optional
+                              // used only when SMTP requires authentication
+                              $mail2->SMTPAuth = true;
+                              $mail2->Username = 'drax@drax.pe.hu';
+                              $mail2->Password = 'antrax2';
+                              $mail2->Port = 25;
+                              //     $mail2->From = $email;
+                              $mail2->Sender = $email;
+                              $mail2->setFrom($email, $nev, true);
+                              //    $mail2->FromName = $nev;
+                              $mail2->CharSet = "UTF-8";
+                              $mail2->IsHTML(true);
+                              $mail2->AddAddress("bader.laszlo22@gmail.com");
+                              $mail2->Subject = $subject;
+                              $mail2->Body = $uzenet;
+                              if (!$mail2->Send()) {
+                              echo $mail2->ErrorInfo;
+                              } else {
+                              ?>
+                              <div class="text-center animated emailsuccess fadeOutUp"><b>Sikeresen elkülted a levelet!</b></div>
+                              <?php
+                              }
+                             */
                         }
                     }
                     ?>
+
                     <form method="post" action="index.php#anchor-contactme" >
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -282,8 +292,8 @@
                         </div>  
                         <div class="input-field">
                             <i class="material-icons prefix">textsms</i>                            
-                            <textarea id="icon-text" required="required" class="materialize-textarea validate" name="message"></textarea>
-                            <label for="icon_text">Üzenet</label>
+                            <textarea required="required" class="materialize-textarea validate" name="message"></textarea>
+                            <label>Üzenet</label>
                         </div> 
                         <div class="text-center">
                             <button class="btn waves-effect waves-light" type="submit" name="submit">Küldés
@@ -291,7 +301,8 @@
                             </button>
                         </div>
                     </form>
-                </div>                 
+                </div>
+
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="contact-info">
                         <ul class="list-unstyled">                                
@@ -304,7 +315,8 @@
                         </ul>                            
                     </div>
                 </div>
-            </div>               
+            </div>  
+        </div>               
         </div>
     </section>
 </main>
@@ -313,7 +325,7 @@
         <ul class="list-inline">
             <li><a title="Facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100004893797602"><i class="fa fa-facebook"></i></a></li>
             <li><a title="Twitter" target="_blank" href="https://twitter.com/drax189?lang=hu"><i class="fa fa-twitter"></i></a></li>
-            <li><a title="Motivációs levél" href="page/files/Báder_László_Motivációs_levél.pdf"><i class="fa fa-envelope"></i></a></li>  
+            <li><a title="Levél küldés" href="mailto:bader.laszlo22@gmail.com" target="_top"><i class="fa fa-envelope"></i></a></li>  
             <li><a title="Önéletrajz" href="page/files/Báder_László_Önéletrajz.pdf"><i class="fa fa-file-text-o"></i></a></li>
         </ul>
     </div>

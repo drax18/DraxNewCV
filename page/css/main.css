@@ -71,7 +71,7 @@ a:hover, a:focus{
     display: table;
     margin: 0 auto;
 }
-.sub-myname div:before{
+.sub-myname div::before{
     content: " ";
     position: absolute;
     z-index: -1;
@@ -80,7 +80,8 @@ a:hover, a:focus{
     right: 5px;
     bottom: 5px;
     border: 5px solid white;
-    border-radius: 50%;
+    border-radius: 50%;    
+    height: 270px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
 }
@@ -216,15 +217,15 @@ a:hover, a:focus{
     margin: 0 auto;
     margin-bottom: 30px;
 }
-.myface:after{
+.myface::after{
     content: ' ';
     position: absolute;
     height: 40px;
     width: 10px;
-    bottom: 0;
-    background-color: #26a69a;
     bottom: -35px;
-    margin-left: -5px;
+    background-color: #26a69a;
+    left:0;
+    margin-left: 273px;
 }
 .myface{
     position: relative;
@@ -286,8 +287,9 @@ a:hover, a:focus{
 /* Aboutme end */
 
 /* Contactme  */
+
 .contactme{
-    margin-bottom: 100px;
+    margin-bottom: 100px;    
 }
 .contactme input{
     font-size: 14px;

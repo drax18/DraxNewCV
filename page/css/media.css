@@ -25,6 +25,9 @@
         text-align: center;
         margin-left: -25px;    
     }
+    .myface::after{
+        display: none;
+    }
 }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 992px) {
@@ -54,6 +57,9 @@
     .sub-myname div{
         box-shadow: none;
     }
+     .myface::after{
+        display: none;
+    }
 
 }
 /* Landscape phone to portrait tablet */
@@ -61,14 +67,16 @@
     .sub-myname div{
         box-shadow: none;
     }
-    .myface:after{
+    .myface::after{
         display: none;
     }
     .contact-info{
         text-align: center;
         margin-top: 50px;
     }
-
+    .sub-myname div::before{
+        display: none;
+    }
 }
 
 /* Landscape phones and down */
