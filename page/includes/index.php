@@ -115,9 +115,9 @@
                     <h4 class="text-center">Becsült tudásom</h4>
                     <div class="bars text-center">
                         <ul class="list-unstyled">     
-                            <li><span class="bar-expand html5 fadeInLeft animated" ></span><em>HTML5</em></li>
-                            <li><span class="bar-expand css fadeInLeft animated"></span><em>CSS3</em></li>                    
-                            <li><span class="bar-expand js fadeInLeft animated" ></span><em>JavaScript</em></li>
+                            <li><span class="bar-expand html5 " ></span><em>HTML5</em></li>
+                            <li><span class="bar-expand css "></span><em>CSS3</em></li>                    
+                            <li><span class="bar-expand js " ></span><em>JavaScript</em></li>
                         </ul>
                     </div>
                 </div>
@@ -187,10 +187,10 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="">
-                            <!--    <img class="img-responsive"  src="" alt="Készül" /> -->
+                            <a href="page/works/cuda" target="_blank">
+                               <img class="img-responsive" src="page/img/newwork2.png" alt="Cuda" />
                                 <div class="caption">
-                                    <h4 class="text-center">Készül....</h4>                                
+                                    <h4 class="text-center">Cuda</h4>                                
                                 </div>
                             </a>
                         </div>
@@ -234,36 +234,7 @@
                             ?>
                             <div class="text-center animated emailsuccess fadeOutUp"><b>Sikeresen elkülted a levelet!</b></div>
                             <?php
-                            /*
-
-                              $mail2 = new PHPMailer();
-                              $mail2->IsSMTP();
-                              $mail2->Host = "mx1.hostinger.hu";
-                              $mail2->SMTPSecure = "ssl";
-
-                              // optional
-                              // used only when SMTP requires authentication
-                              $mail2->SMTPAuth = true;
-                              $mail2->Username = 'drax@drax.pe.hu';
-                              $mail2->Password = 'antrax2';
-                              $mail2->Port = 25;
-                              //     $mail2->From = $email;
-                              $mail2->Sender = $email;
-                              $mail2->setFrom($email, $nev, true);
-                              //    $mail2->FromName = $nev;
-                              $mail2->CharSet = "UTF-8";
-                              $mail2->IsHTML(true);
-                              $mail2->AddAddress("bader.laszlo22@gmail.com");
-                              $mail2->Subject = $subject;
-                              $mail2->Body = $uzenet;
-                              if (!$mail2->Send()) {
-                              echo $mail2->ErrorInfo;
-                              } else {
-                              ?>
-                              <div class="text-center animated emailsuccess fadeOutUp"><b>Sikeresen elkülted a levelet!</b></div>
-                              <?php
-                              }
-                             */
+                            
                         }
                     }
                     ?>

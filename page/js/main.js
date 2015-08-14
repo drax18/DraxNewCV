@@ -37,6 +37,7 @@ $(document).ready(function () {
     var $infosaboutme = $('.infosaboutme');
     var $myworks = $('.myworks');
     var $contactme = $('.contactme');
+    var $bars = $('.bars');
     
     
 // animate start 
@@ -62,6 +63,13 @@ $(document).ready(function () {
      $contactme.waypoint(function () {
         $('.contactme h1').addClass('animated slideInUp');
         $('.contactme .row').addClass('animated bounceInUp');
+        
+
+    }, {offset: '95%'});
+    
+    $bars.waypoint(function () {
+        $('.bars ul li span').addClass('animated fadeInLeft');
+        
         
 
     }, {offset: '95%'});
