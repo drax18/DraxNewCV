@@ -42,8 +42,8 @@ a:hover, a:focus{
     font-weight: bold;
 }
 .portf > h4{
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
     font-size: 20px;
 }
 /* Myworks end */
@@ -318,7 +318,10 @@ a:hover, a:focus{
 }
 /* Contactme end */
 
-
+.g-recaptcha > div > div{
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
 
 /* Fake P */
 

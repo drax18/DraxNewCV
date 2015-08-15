@@ -110,8 +110,8 @@
                         </p>
                         <p>Ismerek CSS framework-öket <b>( Bootstrap, Materialize )</b>, Package manager-t <b>( Bower )</b>, CSS Precompiler-t <b>( LESS )</b>, valamit Verzió követő rendszert <b>( Git )</b> és még egyéb ezzekkel kapcsolatos dolgokat.
                         </p>
-                        <p>Természetesen <b>mindig</b> van mit tanulni. Szeretek kérdezni, új dolgokat megtanulni, elég kíváncsi ember vagyok.</p>
-                    </div>
+                        <p>Ismerem a PHP5 alapjait, MySQL-t, MVC Keretrendszer ( Codeigniter ), Photoshop alapjait.</p>
+                        </div>
                     <h4 class="text-center">Becsült tudásom</h4>
                     <div class="bars text-center">
                         <ul class="list-unstyled">     
@@ -213,12 +213,18 @@
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                     <?php
-                    if (isset($_POST['submit'])) {
-                        require("page/phpmailer/class.phpmailer.php");
-                        require("page/phpmailer/class.smtp.php");
-                        require ("page/phpmailer/PHPMailerAutoload.php");
-                        $bool = true;
+                    if (isset($_POST['submit'])) {                        
+                        
+                        $url = "https://www.google.com/recaptcha/api/siteverify";
+                        $privatekey = "6Lf1UgsTAAAAALURhhVxEZxyNJTCqIwiW9TW_rjD";
+                        $response = file_get_contents($url."?secret=".$privatekey."&response=".$_POST['g-recaptcha-response']."&remoteip=".$_SERVER['REMOTE_ADDR']);
+                        $data = json_decode($response);
                         $uzenet = "";
+                        if(isset($data->success) and $data->success==true){
+                            $bool = true;
+                        }else{
+                            $bool = false;
+                        }                        
                         if ($bool == true) {
                             $nev = $_POST['name'];
                             $email = $_POST['email'];
@@ -235,6 +241,10 @@
                             <div class="text-center animated emailsuccess fadeOutUp"><b>Sikeresen elkülted a levelet!</b></div>
                             <?php
                             
+                        }else{
+                            ?>
+                            <div class="text-center animated emailsuccess fadeOutUp"><b>Hiba történt! Nem sikerült a levél elküldése!<br />Kattints a "Nem vagyok robot" melletti kockára, hogy elfogadd azt!</b></div>
+                            <?php
                         }
                     }
                     ?>
@@ -266,6 +276,7 @@
                             <textarea required="required" class="materialize-textarea validate" name="message"></textarea>
                             <label>Üzenet</label>
                         </div> 
+                        <div class="g-recaptcha" data-sitekey="6Lf1UgsTAAAAAJtvKL56YKnFYre8loveJZb-7TZM"></div>
                         <div class="text-center">
                             <button class="btn waves-effect waves-light" type="submit" name="submit">Küldés
                                 <i class="material-icons">send</i>
