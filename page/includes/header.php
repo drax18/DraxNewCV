@@ -14,9 +14,6 @@
         <title>Báder László - Weboldal Önéletrajz</title>
 
 
-        <!-- Normalize -->
-        <link href="page/css/normalize.css" rel="stylesheet">  
-
         <!-- Materialize -->              
         <link href="page/css/materialize.css" rel="stylesheet">
 
@@ -31,7 +28,6 @@
 
         <!-- Page CSS -->
         <link href="page/css/main.css" rel="stylesheet">
-        <link href="page/css/index.css" rel="stylesheet">
 
         <!-- Custom CSS -->        
         <link href="page/css/animate.css" rel="stylesheet">
@@ -46,6 +42,13 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <script type="text/javascript" src="page/js/jquery.js"></script>
+        <script type="text/javascript" src="page/js/modernizr.js"></script>
+        <script type="text/javascript" src="page/js/materialize.js"></script>
+        <script type="text/javascript" src="page/js/jquery.sticky.js"></script>
+        <script type="text/javascript" src="page/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="page/js/jquery.waypoints.min.js"></script>
+        <script type="text/javascript" src="page/js/main.js"></script>
         <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body>

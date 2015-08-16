@@ -187,10 +187,10 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="thumbnail">
-                            <a href="page/works/cuda" target="_blank">
+                            <a href="page/works/resto" target="_blank">
                                <img class="img-responsive" src="page/img/newwork2.png" alt="Cuda" />
                                 <div class="caption">
-                                    <h4 class="text-center">Cuda</h4>                                
+                                    <h4 class="text-center">Resto</h4>
                                 </div>
                             </a>
                         </div>
