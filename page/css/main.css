@@ -44,7 +44,8 @@ a:hover, a:focus{
 .portf > h4{
     margin-bottom: 40px;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 24px;
+    text-align: center;
 }
 .myworks .underc{
     position: relative;

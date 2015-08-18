@@ -110,14 +110,14 @@
                         </p>
                         <p>Ismerek CSS framework-öket <b>( Bootstrap, Materialize )</b>, Package manager-t <b>( Bower )</b>, CSS Precompiler-t <b>( LESS )</b>, valamit Verzió követő rendszert <b>( Git )</b> és még egyéb ezzekkel kapcsolatos dolgokat.
                         </p>
-                        <p>Ismerem a <b>PHP5</b>, <b>MySQL</b>, MVC Keretrendszer ( <b>Codeigniter</b> ), <b>Photoshop</b> alapjait.</p>
+                        <p>Ismerem a <b>PHP5</b>, <b> MySQL</b>, MVC Keretrendszer ( <b>Codeigniter</b> ), <b>Photoshop</b> alapjait.</p>
                         </div>
                     <h4 class="text-center">Becsült tudásom</h4>
                     <div class="bars text-center">
                         <ul class="list-unstyled">     
-                            <li><span class="bar-expand html5 " ></span><em>HTML5</em></li>
-                            <li><span class="bar-expand css "></span><em>CSS3</em></li>                    
-                            <li><span class="bar-expand js " ></span><em>JavaScript</em></li>
+                            <li><span class="bar-expand html5" ></span><em>HTML5</em></li>
+                            <li><span class="bar-expand css"></span><em>CSS3</em></li>
+                            <li><span class="bar-expand js" ></span><em>JavaScript</em></li>
                         </ul>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
             <h1 class="text-center">Munkáim</h1>
             <div class="greenline"></div>
             <div class="portf">
-                <h4><i>2013</i></h4>
+                <h4>2013</h4>
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="thumbnail">
@@ -173,7 +173,7 @@
                         </div>
                     </div>                    
                 </div>
-                <h4><i>2015</i></h4>
+                <h4>2015</h4>
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="thumbnail">
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail underc">
+                        <div class="thumbnail">
                             <a href="page/works/resto" target="_blank">
                                <img class="img-responsive" src="page/img/newwork2.png" alt="Cuda" />
                                 <div class="caption">
