@@ -1,8 +1,4 @@
 /* Large desktop */
-@media (min-width: 1200px) {
-
-}
-/*  */
 @media (min-width: 992px) and (max-width: 1199px) {
     .infosaboutme{
         margin-bottom: 30px;
@@ -60,7 +56,6 @@
      .myface::after{
         display: none;
     }
-
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
