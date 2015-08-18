@@ -110,7 +110,7 @@
                         </p>
                         <p>Ismerek CSS framework-öket <b>( Bootstrap, Materialize )</b>, Package manager-t <b>( Bower )</b>, CSS Precompiler-t <b>( LESS )</b>, valamit Verzió követő rendszert <b>( Git )</b> és még egyéb ezzekkel kapcsolatos dolgokat.
                         </p>
-                        <p>Ismerem a PHP5 alapjait, MySQL-t, MVC Keretrendszer ( Codeigniter ), Photoshop alapjait.</p>
+                        <p>Ismerem a <b>PHP5</b>, <b>MySQL</b>, MVC Keretrendszer ( <b>Codeigniter</b> ), <b>Photoshop</b> alapjait.</p>
                         </div>
                     <h4 class="text-center">Becsült tudásom</h4>
                     <div class="bars text-center">
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
+                        <div class="thumbnail underc">
                             <a href="page/works/resto" target="_blank">
                                <img class="img-responsive" src="page/img/newwork2.png" alt="Cuda" />
                                 <div class="caption">
@@ -284,7 +284,6 @@
                         </div>
                     </form>
                 </div>
-
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="contact-info">
                         <ul class="list-unstyled">                                
@@ -298,7 +297,6 @@
                     </div>
                 </div>
             </div>  
-        </div>               
         </div>
     </section>
 </main>

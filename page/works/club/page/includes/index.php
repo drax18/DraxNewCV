@@ -57,7 +57,7 @@
         <div class="bxslider">
             <?php for ($i = 0; $i < 10; $i++) { ?>
 
-                <a href="#"><img src="page/img/slider1.png" alt="Slider" class="img-responsive" />
+                <a href="#"><img src="page/img/slider1.png" alt="Slider" class="img-responsive" /></a>
 
                 <?php } ?>
         </div>
