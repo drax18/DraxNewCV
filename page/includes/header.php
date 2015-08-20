@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD/hAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAARAAABEQAAABEAAAAQAAEREREQAAAAEREREREAAAARABEAEQAAABEAEQARAAAAEQAAABEAAAARAAAAEQAAABEAAAARAAAAEQAAABEAAAARABEAEQAAABEAEQARAAAAEREREREAAAABEREREAABAAAAEQAAABEQAAARAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
         <meta name="description" content="Báder László Weboldal Önéletrajz" />
         <meta name="keywords" content="Báder László Weboldal Önéletrajz Materialize Bootstrap" />
         <meta name="author" content="metatags generator">
@@ -18,19 +17,13 @@
         <!-- Bootstrap -->              
         <link href="page/css/bootstrap.css" rel="stylesheet">
 
-        <!-- Materialize Hooks -->
-        <link href="page/css/materialize_hooks.css" rel="stylesheet" media="screen">
-
-        <!-- Bootstrap Hooks -->
-        <link href="page/css/bootstrap_hooks.css" rel="stylesheet" media="screen">
-
         <!-- Page CSS -->
         <link href="page/css/main.css" rel="stylesheet">
 
         <!-- Custom CSS -->        
-        <link href="page/css/animate.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href="page/css/loaders.min.css" rel="stylesheet">
+        <link href="page/css/animations.css" rel="stylesheet">
 
         <!-- Media CSS -->
         <link href="page/css/media.css" rel="stylesheet">
@@ -39,14 +32,43 @@
         <!--[if gte IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <link href='page/css/animations-ie-fix.css' rel='stylesheet'>
         <![endif]-->
         <script type="text/javascript" src="page/js/jquery.js"></script>
         <script type="text/javascript" src="page/js/modernizr.js"></script>
-        <script type="text/javascript" src="page/js/materialize.js"></script>
-        <script type="text/javascript" src="page/js/jquery.sticky.js"></script>
         <script type="text/javascript" src="page/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="page/js/jquery.waypoints.min.js"></script>
+        <script type="text/javascript" src="page/js/parallax.min.js"></script>
+
+        <script type="text/javascript" src="page/js/jquery.nicescroll.min.js"></script>
+
         <script type="text/javascript" src="page/js/main.js"></script>
-        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body>
+        <nav>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="#anchor-home">Kezdőlap</a>
+                </li>
+                <li>
+                    <a href="#anchor-aboutme">Rólam</a>
+                </li>
+                <li>
+                    <a href="#anchor-resume">Önéletrajz</a>
+                </li>
+                <li>
+                    <a href="#anchor-skills">Készségek</a>
+                </li>
+                <li>
+                    <a href="#anchor-myworks">Munkáim</a>
+                </li>
+                <li>
+                    <a href="#anchor-contactme">Kapcsolat</a>
+                </li>
+            </ul>
+            <a class="ssm-open-nav close-navigation"><i class="fa fa-times"></i></a>
+        </nav>
+            <a class="text-center ssm-open-nav open-navigation" href="#">
+                <i class="fa fa-bars"></i>
+            </a>
+        <div class="ssm-overlay"></div>
+

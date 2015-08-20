@@ -1,24 +1,60 @@
 $(document).ready(function () {
-      $tabh = $(window).height();
-      
-      if($tabh < 539){
-          $('.sub-myname div').css('height',250 + 'px');          
-          $('.sub-myname div').css('width',250 + 'px');
-          $('.sub-myname h1').css('font-size',30 + 'px');
-          $('.sub-myname span').css('padding-right',30 + 'px');
-          $('.downbutton div').css('font-size',30 + 'px');
-          $('.downbutton div').css('padding-bottom',5 + 'px');
-      }
-       
-    $(".sticky").sticky({topSpacing: 0}); // Sticky Menü
 
-    $('.button-collapse').sideNav(); // Animált menü responsive
+    // Nice scroll
+    $("html").niceScroll({cursorcolor:"#4db6ac"});
 
-    $('.parallax').parallax(); // Parallax hátterek
-    
-  
-    
-    
+    // Menu translate
+    function isSafari() {
+        return /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+    }
+
+    function isChrome() {
+        return /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    }
+    $('.ssm-open-nav').click(function() {
+        if($('nav').hasClass('ssm-nav-visible')) {
+            if(isSafari() || isChrome()) {
+                $('nav').css('-webkit-transform', 'translate(' + 280 + 'px,0)');
+            }else{
+                $('nav').css('transform', 'translate(' + 280 + 'px,0)');
+            }
+            $('nav').removeClass('ssm-nav-visible');
+            $('.ssm-overlay').fadeOut();
+        }
+        else{
+            if(isSafari() || isChrome()) {
+                $('nav').css('-webkit-transform', 'translate(' + 0 + 'px,0)');
+            }else{
+                $('nav').css('transform', 'translate(' + 0 + 'px,0)');
+            }
+            $('nav').addClass('ssm-nav-visible');
+            $('.ssm-overlay').fadeIn();
+        }
+    });
+
+    $('nav ul li a').click(function(event){
+        event.preventDefault();
+         $('nav').removeClass('ssm-nav-visible');
+        $('.ssm-overlay').fadeOut();
+        $('nav').css('transform', 'translate(' + 280 + 'px,0)');
+    });
+    $('.ssm-overlay').click(function(event2){
+        event2.preventDefault();
+        $('nav').removeClass('ssm-nav-visible');
+        $('.ssm-overlay').fadeOut();
+        $('nav').css('transform', 'translate(' + 280 + 'px,0)');
+    });
+    // preloader
+        setInterval(function(){
+            $("#loader").animate({ opacity: 0 });
+            $("#loader div").animate({ opacity: 0 });
+        }, 1500);
+        setInterval(function(){
+            $("#loader").css('display','none');
+        }, 2000);
+
+    //parallax
+    $('.parallax-window').parallax({imageSrc: 'page/img/background1.png'});
     
     $('a[href^="#"]').on('click', function (e) { // Animált anchor
         e.preventDefault();
@@ -30,50 +66,7 @@ $(document).ready(function () {
             window.location.hash = target;
         });
     });
-    
-     $('[data-toggle="tooltip"]').tooltip();
-     
-    var $aboutme = $('.aboutme');
-    var $infosaboutme = $('.infosaboutme');
-    var $myworks = $('.myworks');
-    var $contactme = $('.contactme');
-    var $bars = $('.bars');
-    
-    
-// animate start 
 
-    $aboutme.waypoint(function () {
-        $('.aboutme h1').addClass('animated slideInUp');
-        $('.aboutme p').addClass('animated slideInUp');
-        
-
-    }, {offset: '95%'});
-     $myworks.waypoint(function () {
-        $('.myworks h1').addClass('animated slideInUp');
-        $('.myworks p').addClass('animated slideInUp');
-
-    }, {offset: '95%'});
-    
-     $infosaboutme.waypoint(function () {
-        $('.infosaboutme .row div').addClass('animated bounceInUp');
-        
-
-    }, {offset: '90%'});
-    
-     $contactme.waypoint(function () {
-        $('.contactme h1').addClass('animated slideInUp');
-        $('.contactme .row').addClass('animated bounceInUp');
-        
-
-    }, {offset: '95%'});
-    
-    $bars.waypoint(function () {
-        $('.bars ul li span').addClass('animated fadeInLeft');
-        
-        
-
-    }, {offset: '95%'});
-// animate end
     setInterval(function(){ 
         $('.emailsuccess').empty();
     }, 5500);
