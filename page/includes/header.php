@@ -11,22 +11,20 @@
         <meta name="revisit-after" content="1 month">
         <title>Báder László - CV</title>
 
-        <!-- Materialize -->              
-        <link href="page/css/materialize.css" rel="stylesheet">
-
-        <!-- Bootstrap -->              
+        <!-- Bootstrap -->
         <link href="page/css/bootstrap.css" rel="stylesheet">
 
-        <!-- Page CSS -->
-        <link href="page/css/main.css" rel="stylesheet">
+        <!-- Page LESS -->
+        <link href="page/less/main.less" rel="stylesheet/less">
+
 
         <!-- Custom CSS -->        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href="page/css/loaders.min.css" rel="stylesheet">
-        <link href="page/css/animations.css" rel="stylesheet">
+        <link href="page/css/animations.min.css" rel="stylesheet">
 
-        <!-- Media CSS -->
-        <link href="page/css/media.css" rel="stylesheet">
+        <!-- Media LESS -->
+        <link href="page/less/media.less" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->        
         <!--[if gte IE 9]>
@@ -34,13 +32,13 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <link href='page/css/animations-ie-fix.css' rel='stylesheet'>
         <![endif]-->
+        <!-- JS -->
         <script type="text/javascript" src="page/js/jquery.js"></script>
-        <script type="text/javascript" src="page/js/modernizr.js"></script>
+        <script type="text/javascript" src="page/js/modernizr.min.js"></script>
         <script type="text/javascript" src="page/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="page/js/parallax.min.js"></script>
-
         <script type="text/javascript" src="page/js/jquery.nicescroll.min.js"></script>
-
+        <script type="text/javascript" src="page/js/less.min.js"></script>
         <script type="text/javascript" src="page/js/main.js"></script>
     </head>
     <body>
@@ -65,7 +63,7 @@
                     <a href="#anchor-contactme">Kapcsolat</a>
                 </li>
             </ul>
-            <a class="ssm-open-nav close-navigation"><i class="fa fa-times"></i></a>
+            <a class="ssm-open-nav"><i class="fa fa-times"></i></a>
         </nav>
             <a class="text-center ssm-open-nav open-navigation" href="#">
                 <i class="fa fa-bars"></i>

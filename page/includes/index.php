@@ -1,7 +1,6 @@
 <section class="myname parallax-window animatedParent animateOnce" id="anchor-home">
-    <header class="animated bounceInDown">
+    <header class="animated bounceInDown delay-1500">
         <h2>Báder László</h2>
-
         <h3>Frontend fejlesztő</h3>
     </header>
 </section>
@@ -37,8 +36,7 @@
         </div>
         <div class="newworks">
             <a href="page/works/resto/" target="_blank">
-                <div class="work-name animatedParent"><span class="animated bounceInLeft">Resto<i
-                            class="fa fa-angle-double-right"></i></span></div>
+                <div class="work-name animatedParent"><span class="animated bounceInLeft">Resto<i class="fa fa-angle-double-right"></i></span></div>
                 <img src="page/img/work2.png" alt="Resto"/>
             </a>
         </div>
@@ -47,15 +45,13 @@
 <section class="contactme" id="anchor-contactme">
     <div class="container">
         <h1 class="text-center">Kapcsolat</h1>
-
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="contact-info">
                     <h2>Elérhetőségeim</h2>
                     <ul class="list-unstyled">
                         <li>
-                            <label><i class="fa fa-envelope-o"></i></label><a href="mailto:someone@example.com"
-                                                                              target="_top">bader.laszlo22@gmail.com</a>
+                            <label><i class="fa fa-envelope-o"></i></label><a href="mailto:someone@example.com" target="_top">bader.laszlo22@gmail.com</a>
                         </li>
                         <li>
                             <label><i class="fa fa-mobile"></i></label><a href="#">+36 70 251 7738</a>

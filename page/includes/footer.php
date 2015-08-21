@@ -16,6 +16,6 @@
         </a>
     </div>
 </div>
-<script type="text/javascript" src="page/js/css3-animate-it.js"></script>
+<script type="text/javascript" src="page/js/css3-animate-it.min.js"></script>
 </body>
 </html>

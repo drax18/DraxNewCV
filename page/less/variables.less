@@ -1,0 +1,88 @@
+// Colors
+@white:white;
+@light-red:#ee6e73;
+@light-blue:#26a69a;
+@black:black;
+@light-black:#424242;
+// Fonts
+@font-url:"../fonts";
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("@{font-url}/roboto/Roboto-Thin.woff2") format("woff2"), url("@{font-url}/roboto/Roboto-Thin.woff") format("woff"), url("@{font-url}/roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("@{font-url}/roboto/Roboto-Light.woff2") format("woff2"), url("@{font-url}/roboto/Roboto-Light.woff") format("woff"), url("@{font-url}/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("@{font-url}/roboto/Roboto-Regular.woff2") format("woff2"), url("@{font-url}/roboto/Roboto-Regular.woff") format("woff"), url("@{font-url}/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("@{font-url}/roboto/Roboto-Medium.woff2") format("woff2"), url("@{font-url}/roboto/Roboto-Medium.woff") format("woff"), url("@{font-url}/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("@{font-url}/roboto/Roboto-Bold.woff2") format("woff2"), url("@{font-url}/roboto/Roboto-Bold.woff") format("woff"), url("@{font-url}/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700; }
+
+@Roboto-Thin:"Roboto-Thin";
+@Roboto-Light:"Roboto-Light";
+@Roboto:"Roboto";
+@Roboto-Medium:"Roboto-Medium";
+@Roboto-Bold:"Roboto-Bold";
+
+// Infinite
+.infinite{
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+// Header box shadow
+.header-box-shadow{
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, .2), 0 40px 77px 0 rgba(0, 0, 0, .22);
+  -webkit-box-shadow:0 27px 24px 0 rgba(0, 0, 0, .2), 0 40px 77px 0 rgba(0, 0, 0, .22);
+  -moz-box-shadow: 0 27px 24px 0 rgba(0, 0, 0, .2), 0 40px 77px 0 rgba(0, 0, 0, .22);
+  -o-box-shadow: 0 27px 24px 0 rgba(0, 0, 0, .2), 0 40px 77px 0 rgba(0, 0, 0, .22);
+}
+// Header transition
+.header-transition{
+  transition: border-color 1s;
+  -webkit-transition:border-color 1s;
+  -o-transition: border-color 1s;
+  -moz-transition: border-color 1s;
+}
+// Border radious
+.header-border-radius{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+// Down button ease
+.down-ease{
+  transition: all 0.3s ease;
+  -webkit-transition:all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+// Work name transition
+.work-transition{
+  transition: all .2s ease-in-out;
+  -webkit-transition:all .2s ease-in-out ;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+// Work img transform
+.img-transform{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
