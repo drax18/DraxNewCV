@@ -1,7 +1,7 @@
 <section class="myname parallax-window animatedParent animateOnce" id="anchor-home">
     <header class="animated bounceInDown delay-1500">
         <h2>Báder László</h2>
-        <h3>Frontend fejlesztő</h3>
+        <h3>Front-end fejlesztő</h3>
     </header>
 </section>
 <section class="aboutme" id="anchor-aboutme">
@@ -22,12 +22,36 @@
     <div class="container">
         <h1 class="text-center">Készségek</h1>
         <div class="row">
+            <div class="col-lg-4">
+                <div class="frontend-title">Front-end fejlesztés</div>
+            </div>
+            <div class="col-lg-1">
+                <div class="connect"></div>
+            </div>
+            <div class="col-lg-7">
+                <div class="skill-wrapper animatedParent animateOnce">
+                    <div class="html5 animated bounceOutLeft"><div class="bar animated"></div><div class="percent">0</div></div>
+                    <div class="css3"><div class="bar animated"></div><div class="percent">0</div></div>
+                    <div class="javascript"><div class="bar animated"></div><div class="percent">0</div></div>
+                </div>
+            </div>
+            <div class="col-xs-12 text-center more"><b>Egyéb:</b> Bootstrap, Materialize, Modernizr, Parallax, Bower/npm, Less/Sass/Scss, Git, Php5, MySql, Codeigniter, Photoshop.</div>
+            <div class="col-xs-12 text-center valid">Ezeken felül tapasztalatom van pixel pontos, valid, és böngésző független kódolásban.</div>
+
+
+
+
+
         </div>
     </div>
 </section>
 <section class="myworks" id="anchor-myworks">
     <div class="container-fluid nopadding">
         <h1 class="text-center">Munkáim</h1>
+        <div class="created-date">
+                <i>2015-ben elkészített projectek</i>
+
+        </div>
         <div class="newworks">
             <a href="index.php" target="_blank">
                 <div class="work-name animatedParent"><span class="animated bounceInLeft">Weboldal Önéletrajz<i class="fa fa-angle-double-right"></i></span></div>

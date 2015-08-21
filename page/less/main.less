@@ -117,7 +117,7 @@ nav {
   width: 100%;
   z-index: 9999;
   .ball-clip-rotate > div {
-    border-color: @light-blue;
+    border-color: @light-green;
     border-bottom-color: transparent;
     height: 50px;
     width: 50px;
@@ -198,7 +198,7 @@ nav {
       text-decoration: none;
       .down-ease;
         &:hover{
-          color: @light-blue;
+          color: @light-green;
         }
     }
 }
@@ -206,10 +206,221 @@ nav {
 // About me
 // Resume
 // Skills
+.skills{
+  background-color: @light-blue;
+  padding: 30px 0px 30px 0px;
+    .frontend-title{
+      display: inline-block;
+      background-color: @white;
+      color: @light-blue;
+      font-family: @Roboto-Medium;
+      font-size: 28px;
+      padding: 10px 15px;
+      position: relative;
+      margin-top: 150px;
+      margin-left: 40px;
+      margin-bottom: 150px;
+        &:after{
+          position: absolute;
+          content: "";
+          width: 100px;
+          height: 2px;
+          background-color:@white;
+          right: -100px;
+          top: 50%;
+          margin-top: -1px;
+        }
+    }
+    .connect{
+      height: 260px;
+      width: 2px;
+      background-color: @white;
+      position: relative;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 40px;
+        &:before{
+          height: 2px;
+          width: 20px;
+          top: 50%;
+          margin-top: -1px;
+          position: absolute;
+          content: "";
+          left: -20px;
+          background-color:@white;
+        }
+    }
+    .skill-wrapper{
+        .html5{
+          height: 60px;
+          margin-top: 20px;
+          width: 50%;
+          background-color: @light-blue;
+          color: @white;
+          font-family: @Roboto-Medium;
+          font-size: 28px;
+          position: relative;
+          margin-left: 40px;
+          border: 2px solid @white;
+            &:before{
+              height: 2px;
+              width: 98px;
+              top: 50%;
+              margin-top: -1px;
+              position: absolute;
+              content: "";
+              left: -98px;
+              background-color:@white;
+            }
+            &:after{
+              content:"HTML5" ;
+              position: absolute;
+              color: @white;
+              font-size: 24px;
+              font-family: @Roboto-Medium;
+              right: 0px;
+              width: 150px;
+              top: 10px;
+              margin-right: -180px;
+            }
+          .bar{
+            width:0%;
+            overflow:hidden;
+            -webkit-transition: width 2s ease-in-out;
+            -moz-transition: width 2s ease-in-out;
+            -o-transition: width 2s ease-in-out;
+            transition: width 2s ease-in-out;
+            background-color: #36BBCE  ;
+          }
+          .go{
+            width: 85%;
+          }
+        }
+        .css3{
+          height: 60px;
+          margin-top: 70px;
+          margin-left: 40px;
+          width: 50%;
+          background-color: @light-blue;
+          color: @white;
+          font-family: @Roboto-Medium;
+          font-size: 28px;
+          position: relative;
+          border: 2px solid @white;
+            &:before{
+              height: 2px;
+              width: 98px;
+              top: 50%;
+              margin-top: -1px;
+              position: absolute;
+              content: "";
+              left: -98px;
+              background-color:@white;
+            }
+            &:after {
+              content: "CSS3";
+              position: absolute;
+              color: @white;
+              font-size: 24px;
+              font-family: @Roboto-Medium;
+              right: 0px;
+              width: 150px;
+              top: 10px;
+              margin-right: -180px;
+            }
+            .bar{
+              width:0%;
+              overflow:hidden;
+              -webkit-transition: width 2s ease-in-out;
+              -moz-transition: width 2s ease-in-out;
+              -o-transition: width 2s ease-in-out;
+              transition: width 2s ease-in-out;
+              background-color: #FF8F40  ;
+            }
+            .go{
+              width: 75%;
+            }
+        }
+        .javascript{
+          height: 60px;
+          margin-left: 40px;
+          margin-top: 70px;
+          width: 50%;
+          background-color: @light-blue;
+          color: @white;
+          font-family: @Roboto-Medium;
+          font-size: 28px;
+          position: relative;
+          border: 2px solid @white;
+            &:before{
+              height: 2px;
+              width: 98px;
+              top: 50%;
+              margin-top: -1px;
+              position: absolute;
+              content: "";
+              left: -98px;
+              background-color:@white;
+            }
+            &:after {
+              content: "JavaScript";
+              position: absolute;
+              color: @white;
+              font-size: 24px;
+              font-family: @Roboto-Medium;
+              right: 0px;
+              width: 150px;
+              top: 10px;
+              margin-right: -180px;
+            }
+            .bar{
+              width:0%;
+              overflow:hidden;
+              -webkit-transition: width 2s ease-in-out;
+              -moz-transition: width 2s ease-in-out;
+              -o-transition: width 2s ease-in-out;
+              transition: width 2s ease-in-out;
+              background-color: #34D0BA ;
+            }
+            .go{
+              width: 60%;
+            }
+          }
+    }
+    .html5 div,.css3 div,.javascript div{
+      float: left;
+      height: 56px;
+    }
+    .html5 .percent:after, .css3 .percent:after, .javascript .percent:after{
+      content: "%";
+      position: absolute;
+      font-size: 18px;
+      right: -14px;
+      top: 7px;
+      color: @white;
+
+    }
+    .percent{
+      font-family: @Roboto-Light;
+      font-size: 22px;
+      padding-top: 15px;
+      padding-left: 5px;
+      position: relative;
+    }
+    .valid,.more{
+      color: white;
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+    .more{
+      margin: 20px 0;
+
+    }
+}
 // My works
 .myworks{
   background-color: @light-black;
-  margin-bottom: 70px;
+  padding: 30px 0px 30px 0px;
   .nopadding{
     padding: 0;
   }
@@ -233,9 +444,8 @@ nav {
       }
       span{
         display: inline-block;
-        margin: 0 auto;
         color: @white;
-        margin: 15px;
+        margin: 25px;
         padding: 5px 10px 5px 10px;
         background-color: rgba(66, 66, 66, 0.7);
       }
@@ -250,10 +460,17 @@ nav {
       background-color: rgba(66, 66, 66, 0.6);
     }
   }
+    .created-date{
+      margin: 10px auto 20px auto;
+      text-align: center;
+      color: white;
+      font-size: 16px;
+      font-family: @Roboto-Light;
+    }
 }
 // Contact me
 .contactme {
-  background-color: @light-blue;
+  background-color: @light-green;
   padding-bottom: 50px;
     textarea {
       resize: none;

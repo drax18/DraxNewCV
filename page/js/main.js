@@ -1,5 +1,58 @@
 $(document).ready(function () {
 
+    // Percent
+
+    var killit =  setInterval(function(){checker()},1);
+    function checker(){
+        if ($(".html5 .bar").hasClass("go")) {
+            $('.html5 .percent').each(function () {
+                $(this).prop('Counter',0).animate({
+                    Counter: 85
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+            clearInterval(killit);
+        }
+    }
+    var killit2 =  setInterval(function(){checker2()},1);
+    function checker2(){
+        if ($(".css3 .bar").hasClass("go")) {
+            $('.css3 .percent').each(function () {
+                $(this).prop('Counter',0).animate({
+                    Counter: 75
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+            clearInterval(killit2);
+        }
+    }
+    var killit3 =  setInterval(function(){checker3()},1);
+    function checker3(){
+        if ($(".javascript .bar").hasClass("go")) {
+            $('.javascript .percent').each(function () {
+                $(this).prop('Counter',0).animate({
+                    Counter: 60
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+            clearInterval(killit3);
+        }
+    }
     // Nice scroll
     $("html").niceScroll({cursorcolor:"#4db6ac"});
 
