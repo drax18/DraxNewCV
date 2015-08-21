@@ -33,13 +33,13 @@ $(document).ready(function () {
             $('.ssm-overlay').fadeIn();
         }
     });
-
     $('.ssm-overlay').click(function(event2){
         event2.preventDefault();
         $('nav').removeClass('ssm-nav-visible');
         $('.ssm-overlay').fadeOut();
         $('nav').css('transform', 'translate(' + 280 + 'px,0)');
     });
+
     // preloader
         setInterval(function(){
             $("#loader").animate({ opacity: 0 });
@@ -51,8 +51,9 @@ $(document).ready(function () {
 
     //parallax
     $('.parallax-window').parallax({imageSrc: 'page/img/background1.png'});
-    
-    $('a[href^="#"]').on('click', function (e) { // Animált anchor
+
+    // Anchor
+    $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
         var target = this.hash;
         var $target = $(target);
@@ -62,7 +63,7 @@ $(document).ready(function () {
             window.location.hash = target;
         });
     });
-
+    // Email
     setInterval(function(){ 
         $('.emailsuccess').empty();
     }, 5500);
