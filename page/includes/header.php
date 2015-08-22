@@ -51,13 +51,10 @@
                     <a href="#anchor-aboutme">Rólam</a>
                 </li>
                 <li>
-                    <a href="#anchor-resume">Önéletrajz</a>
-                </li>
-                <li>
                     <a href="#anchor-skills">Készségek</a>
                 </li>
                 <li>
-                    <a href="#anchor-myworks">Munkáim</a>
+                    <a href="#anchor-myworks">Munkák</a>
                 </li>
                 <li>
                     <a href="#anchor-contactme">Kapcsolat</a>

@@ -11,13 +11,6 @@
         </div>
     </div>
 </section>
-<section class="resume" id="anchor-resume">
-    <div class="container">
-        <h1 class="text-center">Önéletrajz</h1>
-        <div class="row">
-        </div>
-    </div>
-</section>
 <section class="skills" id="anchor-skills">
     <div class="container">
         <h1 class="text-center">Készségek</h1>
@@ -30,24 +23,19 @@
             </div>
             <div class="col-lg-7">
                 <div class="skill-wrapper animatedParent animateOnce">
-                    <div class="html5 animated bounceOutLeft"><div class="bar animated"></div><div class="percent">0</div></div>
+                    <div class="html5"><div class="bar animated"></div><div class="percent">0</div></div>
                     <div class="css3"><div class="bar animated"></div><div class="percent">0</div></div>
                     <div class="javascript"><div class="bar animated"></div><div class="percent">0</div></div>
                 </div>
             </div>
             <div class="col-xs-12 text-center more"><b>Egyéb:</b> Bootstrap, Materialize, Modernizr, Parallax, Bower/npm, Less/Sass/Scss, Git, Php5, MySql, Codeigniter, Photoshop.</div>
-            <div class="col-xs-12 text-center valid">Ezeken felül tapasztalatom van pixel pontos, valid, és böngésző független kódolásban.</div>
-
-
-
-
-
+            <div class="col-xs-12 text-center valid">Ezeken felül tapasztal pixel pontos, valid, és böngésző független kódolásban.</div>
         </div>
     </div>
 </section>
 <section class="myworks" id="anchor-myworks">
     <div class="container-fluid nopadding">
-        <h1 class="text-center">Munkáim</h1>
+        <h1 class="text-center">Munkák</h1>
         <div class="created-date">
                 <i>2015-ben elkészített projectek</i>
 
@@ -87,16 +75,8 @@
                 <h2>Írj e-mail-t</h2>
                 <?php
                 if (isset($_POST['submit'])) {
-                    $url = "https://www.google.com/recaptcha/api/siteverify";
-                    $privatekey = "6Lf1UgsTAAAAALURhhVxEZxyNJTCqIwiW9TW_rjD";
-                    $response = file_get_contents($url . "?secret=" . $privatekey . "&response=" . $_POST['g-recaptcha-response'] . "&remoteip=" . $_SERVER['REMOTE_ADDR']);
-                    $data = json_decode($response);
+                    $bool = true;
                     $uzenet = "";
-                    if (isset($data->success) and $data->success == true) {
-                        $bool = true;
-                    } else {
-                        $bool = false;
-                    }
                     if ($bool == true) {
                         $nev = $_POST['name'];
                         $email = $_POST['email'];
@@ -123,40 +103,29 @@
                     }
                 }
                 ?>
-
                 <form method="post" action="index.php#anchor-contactme">
                     <div class="form-group">
-
                         <input id="name" type="text" class="form-control" name="name" placeholder="Név"
                                required="required"/>
-
                     </div>
                     <div class="form-group">
-
                         <input id="email" type="email" class="form-control" name="email" placeholder="E-mail"
                                required="required"/>
-
                     </div>
                     <div class="form-group">
-
                         <input id="subject" type="text" class="form-control" name="subject" placeholder="Tárgy"
                                required="required"/>
-
                     </div>
                     <div class="form-group">
-
                         <textarea id="message" class="form-control" required="required" placeholder="Üzenet"
                                   name="message"></textarea>
-
                     </div>
                     <div class="text-center">
                         <button class="btn" type="submit" name="submit">Küldés<i class="fa fa-paper-plane-o"></i>
                         </button>
                     </div>
                 </form>
-
             </div>
-
         </div>
     </div>
 </section>

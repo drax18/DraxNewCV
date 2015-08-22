@@ -3,7 +3,7 @@
             © 2015 Készítette Báder László
         </div>
 </footer>
-<div id="loader" style="display: none">
+<div id="loader">
     <div class="loader-inner ball-clip-rotate">
         <div></div>
     </div>

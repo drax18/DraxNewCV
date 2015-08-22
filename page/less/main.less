@@ -86,23 +86,26 @@ nav {
   position: fixed;
   top: 30px;
   right: 25px;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  display: block;
+  height: 35px;
   text-decoration: none;
   border-bottom: none;
   z-index: 50;
   cursor: pointer;
     i{
       color: @light-red;
-      font-size: 24px;
+      font-size: 26px;
+      padding-top: 5px;
     }
 }
 .close-navigation {
   position: fixed;
-  right: 28px;
-  top: 28px;
+  right: 31px;
+  top: 31px;
   z-index: 101;
   cursor: pointer;
+  padding: 0 5px 0 5px;
     i{
       color: @white;
       font-size: 32px;
@@ -204,11 +207,14 @@ nav {
 }
 
 // About me
-// Resume
+.aboutme{
+  background-color: #66bb6a;
+  padding: 30px 0px 50px 0px;
+}
 // Skills
 .skills{
   background-color: @light-blue;
-  padding: 30px 0px 30px 0px;
+  padding: 30px 0px 50px 0px;
     .frontend-title{
       display: inline-block;
       background-color: @white;
@@ -420,7 +426,7 @@ nav {
 // My works
 .myworks{
   background-color: @light-black;
-  padding: 30px 0px 30px 0px;
+  padding: 30px 0px 50px 0px;
   .nopadding{
     padding: 0;
   }
