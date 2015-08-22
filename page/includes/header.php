@@ -18,8 +18,7 @@
         <link href="page/less/main.less" rel="stylesheet/less">
 
 
-        <!-- Custom CSS -->        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!-- Custom CSS -->
         <link href="page/css/loaders.min.css" rel="stylesheet">
         <link href="page/css/animations.min.css" rel="stylesheet">
 
@@ -60,10 +59,10 @@
                     <a href="#anchor-contactme">Kapcsolat</a>
                 </li>
             </ul>
-            <a class="ssm-open-nav"><i class="fa fa-times"></i></a>
+            <a class="ssm-open-nav"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
         </nav>
             <a class="text-center ssm-open-nav open-navigation" href="#">
-                <i class="fa fa-bars"></i>
+               <span class=" glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
             </a>
         <div class="ssm-overlay"></div>
 

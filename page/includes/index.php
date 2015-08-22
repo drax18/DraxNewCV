@@ -8,6 +8,37 @@
     <div class="container">
         <h1 class="text-center">Rólam</h1>
         <div class="row">
+            <div class="col-xs-12">
+                <div class="text-justify story"> Webes programozással 2010-ben foglalkoztam először, mert mindig is érdekeltek a weboldalak működése, viszont komolyabb célokat szerettem volna elérni ezzel. Ezért úgy döntöttem, hogy 2011-ben jelentkezem egy 2 éves web-programozó szakra Miskolcon. Első évben a programozás
+                    logikáját tanultuk, különböző programozási nyelvekkelel egybekötve. A második évben, már a szakdolgozatom készítettem, amihez a front-end fejlesztés alapjait + PHP + MySQL + Codeigniter-t használtam fel. 2013 júliusában végeztem el az iskolát és szereztem meg a képzéshez tartozó OKJ Bizonyítványt.
+                    Az iskola után, 2013 októberében kezdtem el gyakornokként dolgozni a Futureweb Kft.-nél mint Site-builder. Itt a feladatom az volt, hogy PSD fájlokból építsek fel weboldalakat, pixel pontosan, Bootstrapet használva, figyelve arra, hogy az oldal valid kódot tartalmazzon. 2014 márciusáig dolgoztam náluk. Ez után külföldön is tartózkodtam és 2015
+                    februárjában jöttem vissza véglegesen. 2015 júliusában kezdtem el újult erővel fejleszteni, és immáron Frontend résszel foglalkozni.
+                </div>
+            </div>
+            <div class="col-lg-4">
+                    <div class="birth">Kor: <span>25 éves</span></div>
+                    <div class="home">Lakhely: <span>Kazincbarcika</span></div>
+                    <div class="email">E-mail: <span>bader.laszlo22@gmail.com</span></div>
+                    <div class="phone">Telefonszám: <span>+36 70 251 7738</span></div>
+                    <div class="resume"><a target="_blank" href="page/files/Báder_László_Önéletrajz.pdf">Önéletrajz letöltése<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></div>
+            </div>
+            <div class="col-lg-8">
+                <div class="col-lg-6">
+                    <div class="education-title text-center">Végzettség<span class="glyphicon glyphicon-education" aria-hidden="true"></span></div>
+                    <div class="info-r">
+                        <div>Web-programozó</div>
+                        <div>Computer School Szakképző Iskola <span>2011-2013</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="experience-title text-center">Tapasztalat<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></div>
+                    <div class="info-r">
+                        <div>Site-builder</div>
+                        <div>Futureweb Kft. <span>2013 október - 2013 március</span></div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </section>
@@ -28,8 +59,20 @@
                     <div class="javascript"><div class="bar animated"></div><div class="percent">0</div></div>
                 </div>
             </div>
-            <div class="col-xs-12 text-center more"><b>Egyéb:</b> Bootstrap, Materialize, Modernizr, Parallax, Bower/npm, Less/Sass/Scss, Git, Php5, MySql, Codeigniter, Photoshop.</div>
-            <div class="col-xs-12 text-center valid">Ezeken felül tapasztal pixel pontos, valid, és böngésző független kódolásban.</div>
+            <div class="col-xs-12 text-center more">
+                <h3>Egyéb:</h3>
+                <table>
+                    <tr><td>CSS Framework-ök: </td><td>Bootstrap - Materialize</td></tr>
+                    <tr><td>Precompiler-ek: </td><td>Less - Sass / SCSS</td></tr>
+                    <tr><td>JavaScript Framework: </td><td>Angular.js ( Tanulás alatt )</td></tr>
+                    <tr><td>Package Management: </td><td>Bower</td></tr>
+                    <tr><td>Verzió Kezelő Rendszer: </td><td>Git</td></tr>
+                    <tr><td>Back-end fejlesztés: </td><td>PHP5 - MySQL</td></tr>
+                    <tr><td>MVC Framework: </td><td>Codeigniter</td></tr>
+                    <tr><td>Képszerkesztő Szoftver: </td><td>PhotoShop</td></tr>
+                </table>
+            </div>
+            <div class="col-xs-12 text-center valid">Ezeken felül tapasztalat pixel pontos, valid, és böngésző független kódolásban.</div>
         </div>
     </div>
 </section>
@@ -37,7 +80,7 @@
     <div class="container-fluid nopadding">
         <h1 class="text-center">Munkák</h1>
         <div class="created-date">
-                <i>2015-ben elkészített projectek</i>
+            <i>2015-ben elkészített projectek</i>
 
         </div>
         <div class="newworks">
@@ -63,10 +106,10 @@
                     <h2>Elérhetőségeim</h2>
                     <ul class="list-unstyled">
                         <li>
-                            <label><i class="fa fa-envelope-o"></i></label><a href="mailto:someone@example.com" target="_top">bader.laszlo22@gmail.com</a>
+                            <label><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></label><a href="mailto:someone@example.com" target="_top">bader.laszlo22@gmail.com</a>
                         </li>
                         <li>
-                            <label><i class="fa fa-mobile"></i></label><a href="#">+36 70 251 7738</a>
+                            <label><span class="glyphicon glyphicon-phone" aria-hidden="true"></span></label><a href="#">+36 70 251 7738</a>
                         </li>
                     </ul>
                 </div>
@@ -93,7 +136,6 @@
                         <div class="text-center emailsuccess"><b>Sikeresen elkülted a levelet!</b>
                         </div>
                         <?php
-
                     } else {
                         ?>
                         <div class="text-center animated emailsuccess fadeOutUp"><b>Hiba történt! Nem sikerült a levél
@@ -121,7 +163,7 @@
                                   name="message"></textarea>
                     </div>
                     <div class="text-center">
-                        <button class="btn" type="submit" name="submit">Küldés<i class="fa fa-paper-plane-o"></i>
+                        <button class="btn" type="submit" name="submit">Küldés<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
                         </button>
                     </div>
                 </form>
@@ -129,5 +171,3 @@
         </div>
     </div>
 </section>
-
-
