@@ -17,13 +17,13 @@
         <!-- Page LESS -->
         <link href="page/less/main.less" rel="stylesheet/less">
 
-
         <!-- Custom CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href="page/css/loaders.min.css" rel="stylesheet">
         <link href="page/css/animations.min.css" rel="stylesheet">
 
         <!-- Media LESS -->
-        <link href="page/less/media.less" rel="stylesheet">
+        <link href="page/less/media.less" rel="stylesheet/less">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->        
         <!--[if gte IE 9]>
@@ -35,8 +35,6 @@
         <script type="text/javascript" src="page/js/jquery.js"></script>
         <script type="text/javascript" src="page/js/modernizr.min.js"></script>
         <script type="text/javascript" src="page/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="page/js/parallax.min.js"></script>
-        <script type="text/javascript" src="page/js/jquery.nicescroll.min.js"></script>
         <script type="text/javascript" src="page/js/less.min.js"></script>
         <script type="text/javascript" src="page/js/main.js"></script>
     </head>

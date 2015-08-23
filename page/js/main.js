@@ -54,7 +54,7 @@ $(document).ready(function () {
         }
     }
     // Nice scroll
-    $("html").niceScroll({cursorcolor:"#4db6ac"});
+   /* $("html").niceScroll({cursorcolor:"#4db6ac"}); */
 
     // Menu translate
     function isSafari() {
@@ -117,13 +117,11 @@ $(document).ready(function () {
         setInterval(function(){
             $("#loader").animate({ opacity: 0 });
             $("#loader div").animate({ opacity: 0 });
-        }, 1500);
+        }, 1000);
         setInterval(function(){
             $("#loader").css('display','none');
-        }, 2000);
+        }, 1500);
 
-    //parallax
-    $('.parallax-window').parallax({imageSrc: 'page/img/background1.png'});
 
     // Anchor
     $('a[href^="#"]').on('click', function (e) {

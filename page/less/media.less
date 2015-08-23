@@ -1,17 +1,123 @@
-
+@import "variables.less";
 @media (max-width: 1199px) {
-
+  .aboutme{
+      .story{
+        width: 100%;
+        padding-left: 0;
+      }
+      .birth,.home,.email,.phone,.education{
+        display: inline-block;
+        width: auto;
+        padding-top: 13px;
+        padding-right: 16px;
+      }
+      .info-r > div:nth-child(even),.info-r > div:nth-child(odd){
+        text-align: center;
+        width: 100%;
+        background-color: #528b55;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+       .info-r > div:nth-child(even):after,.info-r > div:nth-child(odd):after,.info-r > div:nth-child(even):before{
+         display: none;
+       }
+      .info-r >div:nth-child(3n+3){
+        margin-top: 127px;
+      }
+      .experience-title .title:after{
+        height: 429px;
+        margin-bottom: -429px;
+      }
+  }
+  .skills{
+    .frontend-title,.connect{
+      margin-left: 0;
+    }
+    .skill-wrapper{
+      .html5,.css3, .javascript{
+        margin-left: 0;
+        width: 70%;
+        &:before{
+          width: 83px;
+          left: -83px;
+        }
+      }
+    }
+  }
 }
-
-@media (max-width: 992px) {
-
+@media (max-width: 991px) {
+  .aboutme{
+    .resume{
+      text-align: center;
+    }
+    .birth,.home,.email,.phone,.education{
+      display: block;
+      text-align: center;
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+  .skills{
+    .frontend-title{
+      margin: 0 auto 20px auto;
+      display: block;
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0;
+        &:after{
+          display: none;
+        }
+    }
+    .skill-wrapper{
+      .html5,.css3, .javascript{
+        width: 85%;
+        &:before{
+          display: none;
+        }
+      }
+    }
+  }
 }
-
 @media (max-width: 767px) {
+  .skills{
+    .more{
+      .table-responsive{
+        display: block;
+        border: none;
+        overflow-y: auto;
+      }
+    }
+    .skill-wrapper{
+      .html5,.css3, .javascript{
+        width: 100%;
+        &:after{
+          color: @light-blue;
+          left: 0px;
+          width: 110px;
+          text-align: left;
+          top: 0px;
+          padding-left: 30px;
+          margin-right: 0px;
+          padding-top: 12px;
+          height: auto;
+          border: none;
+        }
+      }
+    }
+
+  }
+}
+@media (max-width: 583px) {
 
 }
-
 @media (max-width: 480px) {
-
+  .skills{
+    .percent{
+      display: none;
+    }
+  }
+  .myworks .newworks .work-name{
+    font-size: 26px;
+  }
 }
 
