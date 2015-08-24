@@ -9,6 +9,7 @@ a{
   outline: none;
   &:focus{
     border: none;
+    outline: none;
     text-decoration: none;
   }
 }
@@ -17,14 +18,14 @@ section h1 {
   letter-spacing: 2px;
   font-family: @Roboto-Light;
   font-size: 64px;
-  color: @white;
+  color: white;
   margin-bottom: 70px;
   position: relative;
   &:after{
     content: '';
     width: 200px;
     height: 3px;
-    background-color: @white;
+    background-color: white;
     position: absolute;
     bottom: -20px;
     left: 50%;
@@ -40,15 +41,14 @@ nav {
   top: 0;
   height: 100%;
   width: 280px;
-  background-color: rgba(238, 110, 115, 1);
+  background-color:@light-red;
   right: 0;
   z-index: 100;
   position: fixed;
   overflow-y: auto;
   overflow-x: visible;
-  transform: translate(280px, 0);
+  .menu-transition;
   color: white;
-  transition-duration:0.3s;
   ul {
     margin-top: 75px;
     li{
@@ -78,9 +78,9 @@ nav {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   display: none;
-  z-index: 1;
+  z-index: 99;
 }
 .open-navigation {
   position: fixed;
@@ -107,7 +107,7 @@ nav {
   cursor: pointer;
   padding: 0 5px 0 5px;
   span{
-    color: @white;
+    color: white;
     font-size: 28px;
     padding-top: 4px;
     padding-right: 1px;
@@ -115,14 +115,14 @@ nav {
 }
 // Loader
 #loader {
-  background-color: @white;
+  background-color: white;
   height: 100%;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 9999;
   .ball-clip-rotate > div {
-    border-color: @light-green;
+    border-color: @light-green2;
     border-bottom-color: transparent;
     height: 50px;
     width: 50px;
@@ -135,7 +135,7 @@ nav {
 /* Header */
 .myname {
   height: 100%;
-  background: url('../img/low-poly.png') no-repeat center center fixed;
+  background: url('../img/low-poly.png') no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -167,17 +167,13 @@ nav {
       font-size: 36px;
       letter-spacing: 5px;
       margin-bottom: 0;
-      text-align: center;
     }
     h3{
-      text-align: center;
       margin-top: 3px;
       font-family: @Roboto-Light;
       letter-spacing: 0.5px;
     }
   }
-
-
 }
 // Down button
 .downbutton {
@@ -186,7 +182,7 @@ nav {
   bottom: 0;
   div:first-child {
     text-align: center;
-    color: @white;
+    color: white;
     font-family: @Roboto-Light;
   }
   div:nth-child(2) {
@@ -194,7 +190,7 @@ nav {
     font-size: 50px;
   }
   a{
-    color: @white;
+    color: white;
     text-decoration: none;
     .down-ease;
     &:hover{
@@ -208,7 +204,7 @@ nav {
   padding: 30px 0px 50px 0px;
     .story{
       color: white;
-      width: 81%;
+      width: 82%;
       font-size: 14.5px;
       padding-left: 50px;
     }
@@ -247,12 +243,11 @@ nav {
           padding-left: 5px;
         }
     }
-
     .education-title{
         .title{
           color: white;
           font-size: 24px;
-          background-color: #528b55;
+          background-color: @dark-green;
           border-radius: 2px;
           width: 45%;
           margin: 47px auto 0 auto;
@@ -264,7 +259,7 @@ nav {
               left: 50%;
               z-index: 1;
               margin-left: -1px;
-              background-color: #528b55;
+              background-color: @dark-green;
               width: 2px;
               bottom: 0;
               margin-bottom: -320px;
@@ -289,7 +284,7 @@ nav {
         .title{
           color: white;
           font-size: 24px;
-          background-color: #528b55;
+          background-color: @dark-green;
           border-radius: 2px;
           width: 45%;
           margin: 47px auto 0 auto;
@@ -301,7 +296,7 @@ nav {
             left: 50%;
             z-index: 1;
             margin-left: -1px;
-            background-color: #528b55;
+            background-color: @dark-green;
             width: 2px;
             bottom: 0;
             margin-bottom: -400px;
@@ -335,8 +330,8 @@ nav {
           .header-border-radius;
           left:0;
           top:6px;
-          margin-left: -26px;
-          background-color: #528b55;
+          margin-left: -27px;
+          background-color: @dark-green;
         }
     }
   .info-r > div:nth-child(3n+3){
@@ -355,7 +350,7 @@ nav {
           right:0;
           top:6px;
           margin-right: -26px;
-          background-color: #528b55;
+          background-color: @dark-green;
         }
     }
     .info-r > div{
@@ -363,7 +358,6 @@ nav {
       margin-top: -21px;
     }
     .info-r{
-      text-align: left;
       z-index: 3;
       color: white;
       margin-top: 51px;
@@ -378,9 +372,7 @@ nav {
           font-family: @Roboto-Light;
           span{
             padding-top: 5px;
-
             display: block;
-
           }
         }
     }
@@ -397,11 +389,9 @@ nav {
       width: 30px;
       height: 30px;
       margin-top: 29px;
-      background-color: #424242;
+      background-color: @light-black;
     }
-
   }
-
 }
 // Skills
 .skills{
@@ -409,7 +399,7 @@ nav {
   padding: 30px 0px 50px 0px;
   .frontend-title{
     display: inline-block;
-    background-color: #f5f5f5 ;
+    background-color: @darker-white;
     color: @light-blue;
     font-family: @Roboto-Medium;
     font-size: 28px;
@@ -423,7 +413,7 @@ nav {
       content: "";
       width: 100px;
       height: 2px;
-      background-color:@white;
+      background-color:@darker-white;
       right: -100px;
       top: 50%;
       margin-top: -1px;
@@ -432,7 +422,7 @@ nav {
   .connect{
     height: 260px;
     width: 2px;
-    background-color: @white;
+    background-color: @darker-white;
     position: relative;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -445,7 +435,7 @@ nav {
       position: absolute;
       content: "";
       left: -20px;
-      background-color:@white;
+      background-color:@darker-white;
     }
   }
   .skill-wrapper{
@@ -454,12 +444,12 @@ nav {
       margin-top: 20px;
       width: 50%;
       background-color: @light-blue;
-      color: @white;
+      color: @darker-white;
       font-family: @Roboto-Medium;
       font-size: 28px;
       position: relative;
       margin-left: 40px;
-      border:2px solid white;
+      border:2px solid @darker-white;
       &:before{
         height: 2px;
         width: 98px;
@@ -468,12 +458,12 @@ nav {
         position: absolute;
         content: "";
         left: -98px;
-        background-color:@white;
+        background-color:@darker-white;
       }
       &:after{
         content:"HTML5" ;
         position: absolute;
-        color: white;
+        color: @darker-white;
         font-size: 24px;
         font-family: "Roboto-Medium";
         right: 0px;
@@ -483,16 +473,13 @@ nav {
         margin-right: -110px;
         padding-top: 12px;
         height: 60px;
-        border: 2px solid white;
+        border: 2px solid @darker-white;
       }
       .bar{
         width:0%;
         overflow:hidden;
-        -webkit-transition: width 2s ease-in-out;
-        -moz-transition: width 2s ease-in-out;
-        -o-transition: width 2s ease-in-out;
-        transition: width 2s ease-in-out;
-        background-color: @white    ;
+        .width-transition;
+        background-color: @darker-white;
       }
       .go{
         width: 85%;
@@ -504,11 +491,11 @@ nav {
       margin-left: 40px;
       width: 50%;
       background-color: @light-blue;
-      color: @white;
+      color: @darker-white;
       font-family: @Roboto-Medium;
       font-size: 28px;
       position: relative;
-      border:2px solid white;
+      border:2px solid @darker-white;
       &:before{
         height: 2px;
         width: 98px;
@@ -517,12 +504,12 @@ nav {
         position: absolute;
         content: "";
         left: -98px;
-        background-color:@white;
+        background-color:@darker-white;
       }
       &:after {
         content: "CSS3";
         position: absolute;
-        color: white;
+        color: @darker-white;
         font-size: 24px;
         font-family: "Roboto-Medium";
         right: 0px;
@@ -532,16 +519,13 @@ nav {
         margin-right: -110px;
         padding-top: 12px;
         height: 60px;
-        border: 2px solid white;
+        border: 2px solid @darker-white;
       }
       .bar{
         width:0%;
         overflow:hidden;
-        -webkit-transition: width 2s ease-in-out;
-        -moz-transition: width 2s ease-in-out;
-        -o-transition: width 2s ease-in-out;
-        transition: width 2s ease-in-out;
-        background-color: @white;
+        .width-transition;
+        background-color: @darker-white;
       }
       .go{
         width: 75%;
@@ -553,11 +537,11 @@ nav {
       margin-top: 70px;
       width: 50%;
       background-color: @light-blue;
-      color: @white;
+      color: @darker-white;
       font-family: @Roboto-Medium;
       font-size: 28px;
       position: relative;
-      border:2px solid white;
+      border:2px solid @darker-white;
       &:before{
         height: 2px;
         width: 98px;
@@ -566,12 +550,12 @@ nav {
         position: absolute;
         content: "";
         left: -98px;
-        background-color:@white;
+        background-color:@darker-white;
       }
       &:after {
         content: "JS";
         position: absolute;
-        color: white;
+        color: @darker-white;
         font-size: 24px;
         font-family: "Roboto-Medium";
         right: 0px;
@@ -581,16 +565,13 @@ nav {
         margin-right: -110px;
         padding-top: 12px;
         height: 60px;
-        border: 2px solid white;
+        border: 2px solid @darker-white;
       }
       .bar{
         width:0%;
         overflow:hidden;
-        -webkit-transition: width 2s ease-in-out;
-        -moz-transition: width 2s ease-in-out;
-        -o-transition: width 2s ease-in-out;
-        transition: width 2s ease-in-out;
-        background-color: @white   ;
+        .width-transition;
+        background-color: @darker-white;
       }
       .go{
         width: 60%;
@@ -607,7 +588,7 @@ nav {
     font-size: 18px;
     right: -14px;
     top: 7px;
-    color: @white;
+    color: @darker-white;
 
   }
   .percent{
@@ -618,7 +599,7 @@ nav {
     position: relative;
   }
   .valid,.more{
-    color: white;
+    color: @darker-white;
     font-size: 16px;
     letter-spacing: 1px;
   }
@@ -677,13 +658,12 @@ nav {
       font-size: 36px;
       font-family: @Roboto-Light;
       text-align: left;
-      color: @black;
       i{
         margin-left: 10px;
       }
       span{
         display: inline-block;
-        color: @white;
+        color: white;
         margin: 25px;
         padding: 5px 10px 5px 10px;
         background-color: rgba(66, 66, 66, 0.7);
@@ -701,7 +681,6 @@ nav {
   }
   .created-date{
     margin: 10px auto 20px auto;
-    text-align: center;
     color: white;
     font-size: 16px;
     font-family: @Roboto-Light;
@@ -717,21 +696,24 @@ nav {
   }
   button{
     background-color: @light-black;
-    border: 1px solid @white;
-    color: @white;
+    border: 1px solid white;
+    color: white;
     font-size: 18px;
     margin-top: 35px;
     &:hover{
       color:white;
     }
+    &:focus{
+      color: white;
+    }
     span{
-      color: @white;
+      color: white;
       margin-left: 5px;
     }
   }
   h2{
     margin-top: 0px;
-    color: @white;
+    color: white;
     margin-bottom: 40px;
     position: relative;
   }
@@ -739,7 +721,7 @@ nav {
     label {
       background-color: @light-black;
       font-size: 20px;
-      color: @white;
+      color: white;
       width: 45px;
       height: 45px;
       border-radius: 50%;
@@ -748,7 +730,7 @@ nav {
     }
     a{
       text-decoration: none;
-      color: @white;
+      color: white;
       font-size: 16px;
       padding-left: 10px;
     }
@@ -756,10 +738,15 @@ nav {
       padding-bottom: 10px;
     }
   }
+  .emailsuccess{
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+  }
 }
 /* footer */
 .page-footer {
-  color: @white;
+  color: white;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: @light-black;

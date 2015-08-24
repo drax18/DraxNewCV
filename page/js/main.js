@@ -53,8 +53,6 @@ $(document).ready(function () {
             clearInterval(killit3);
         }
     }
-    // Nice scroll
-   /* $("html").niceScroll({cursorcolor:"#4db6ac"}); */
 
     // Menu translate
     function isSafari() {
@@ -136,7 +134,14 @@ $(document).ready(function () {
     });
     // Email
     setInterval(function(){
-        $('.emailsuccess').empty();
+        $(".emailsuccess").animate({
+            height: 0,
+            opacity: 0,
+            margin: 0,
+            padding: 0
+        }, 'slow', function(){
+            $(this).hide();
+        });
     }, 5500);
 
 });

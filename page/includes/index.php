@@ -1,9 +1,9 @@
-<section class="myname parallax-window animatedParent animateOnce" id="anchor-home">
+<section class="myname animatedParent animateOnce" id="anchor-home">
     <header class="animated bounceInDown delay-1250">
         <div class="myface"></div>
         <div class="alt-myname">
-            <h2>Báder László</h2>
-            <h3>Front-end fejlesztő</h3>
+            <h2 class="text-center">Báder László</h2>
+            <h3 class="text-center">Front-end fejlesztő</h3>
         </div>
     </header>
 </section>
@@ -108,12 +108,11 @@
 <section class="myworks" id="anchor-myworks">
     <div class="container-fluid nopadding">
         <h1 class="text-center">Munkák</h1>
-        <div class="created-date">
+        <div class="created-date text-center">
             <i>2015-ben elkészített projektek</i>
-
         </div>
         <div class="newworks">
-            <a href="index.php" target="_blank">
+            <a href="index.php">
                 <div class="work-name animatedParent"><span class="animated bounceInLeft">Weboldal Önéletrajz<i class="fa fa-angle-double-right"></i></span></div>
                 <img src="page/img/work1.png" alt="CV"/>
             </a>
@@ -162,12 +161,15 @@
                         $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
                         mail($to, $subject, $uzenet, $headers);
                         ?>
-                        <div class="text-center emailsuccess"><b>Sikeresen elkülted a levelet!</b>
-                        </div>
+
+                            <div class="text-center emailsuccess">Sikeresen elkülted a levelet!
+                            </div>
+
+
                         <?php
                     } else {
                         ?>
-                        <div class="text-center animated emailsuccess fadeOutUp"><b>Hiba történt! Nem sikerült a levél
+                        <div class="text-center animated emailsuccess animated fadeOutUp"><b>Hiba történt! Nem sikerült a levél
                                 elküldése!</b>
                         </div>
                         <?php

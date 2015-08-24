@@ -36,7 +36,7 @@
         <script type="text/javascript" src="page/js/modernizr.min.js"></script>
         <script type="text/javascript" src="page/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="page/js/less.min.js"></script>
-        <script type="text/javascript" src="page/js/main.js"></script>
+        <script type="text/javascript" src="page/js/main.min.js"></script>
     </head>
     <body>
         <nav>
