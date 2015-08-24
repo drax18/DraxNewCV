@@ -1,1 +1,17 @@
 .animated{opacity:1;}
+#loader{
+    display: none;
+}
+.myname header{
+    margin: 0 auto;
+    position: relative;
+    left:0;
+    top: 35%;
+    -ms-transform: translateX(0px);
+}
+nav, .ssm-open-nav,.percent{
+    display: none;
+}
+.myworks .newworks .work-name span{
+    -ms-transform: translateX(0px);
+}

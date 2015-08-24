@@ -96,7 +96,6 @@
                         <tr><td>Verzió Kezelő Rendszer: </td><td>Git</td></tr>
                         <tr><td>Back-end: </td><td>PHP5 - MySQL</td></tr>
                         <tr><td>MVC Framework: </td><td>Codeigniter</td></tr>
-                        <tr><td>Office: </td><td>Word - Excel - PowerPoint - Access</td></tr>
                         <tr><td>Programok: </td><td>Adobe CC - MS Office</td></tr>
                     </table>
                 </div>

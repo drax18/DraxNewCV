@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="hu">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="hu"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="hu"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="hu"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="hu"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Báder László - CV</title>
         <meta name="description" content="Báder László Weboldal Önéletrajz" />
-        <meta name="keywords" content="Báder László Weboldal Önéletrajz Materialize Bootstrap" />
+        <meta name="keywords" content="Báder László Weboldal Önéletrajz Bootstrap Parallax" />
         <meta name="author" content="metatags generator">
         <meta name="robots" content="index, follow">
         <meta name="revisit-after" content="1 month">
-        <title>Báder László - CV</title>
+        <link rel="apple-touch-icon" href="page/img/apple-touch-icon.png">
+
 
         <!-- Bootstrap -->
         <link href="page/css/bootstrap.css" rel="stylesheet">
@@ -25,12 +31,10 @@
         <!-- Media LESS -->
         <link href="page/less/media.less" rel="stylesheet/less">
 
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->        
         <!--[if gte IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <link href='page/css/animations-ie-fix.css' rel='stylesheet'>
         <![endif]-->
+
         <!-- JS -->
         <script type="text/javascript" src="page/js/jquery.js"></script>
         <script type="text/javascript" src="page/js/modernizr.min.js"></script>
@@ -39,6 +43,9 @@
         <script type="text/javascript" src="page/js/main.min.js"></script>
     </head>
     <body>
+    <!--[if lt IE 8]>
+    <div class="browserupgrade"><strong>Régi</strong> böngészőt használsz! Kérlek <a href="http://browsehappy.com/">töltsön le</a> új verziót.</div>
+    <![endif]-->
         <nav>
             <ul class="list-unstyled">
                 <li>

@@ -140,6 +140,7 @@ nav {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: relative;
   header {
     position: absolute;
     width: 320px;
@@ -153,7 +154,7 @@ nav {
       height: 150px;
       width: 150px;
       border: 5px solid @light-green2;
-      background: white url("../img/myface.png") no-repeat center;
+      background: white url("../img/myface2.png") no-repeat center;
       background-size: 139px;
       .header-box-shadow;
       .header-border-radius;
@@ -750,4 +751,12 @@ nav {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: @light-black;
+}
+.browserupgrade{
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding-top: 100px;
 }
