@@ -145,5 +145,6 @@ $(document).ready(function () {
             $(this).hide();
         });
     }, 5500);
+    /* PACAL */
 
 });
